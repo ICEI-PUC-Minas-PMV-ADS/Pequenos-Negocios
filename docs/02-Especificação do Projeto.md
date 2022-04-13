@@ -2,13 +2,19 @@
 
 <span style="color:red">Pré-requisitos: <a href="1-Documentação de Contexto.md"> Documentação de Contexto</a></span>
 
-Definição do problema e ideia de solução a partir da perspectiva do usuário. É composta pela definição do  diagrama de personas, histórias de usuários, requisitos funcionais e não funcionais além das restrições do projeto.
-
-Apresente uma visão geral do que será abordado nesta parte do documento, enumerando as técnicas e/ou ferramentas utilizadas para realizar a especificações do projeto
+A definição do problema foi levantada a partir de entrevistas realizadas com pessoas que já trabalham no ramo e usuários dos produtos que serão oferecidos. Os detalhes desse processo de entrevistas foram consolidados na forma de personas e histórias de usuários.
 
 ## Personas
 
-Pedro Paulo tem 26 anos, é arquiteto recém-formado e autônomo. Pensa em se desenvolver profissionalmente através de um mestrado fora do país, pois adora viajar, é solteiro e sempre quis fazer um intercâmbio. Está buscando uma agência que o ajude a encontrar universidades na Europa que aceitem alunos estrangeiros.
+Fernanda Alparone tem 46 anos, é confeiteira e sócia de um pequeno negócio autônomo especializado em bolos, doces e biscoitos amanteigados. Suas principais motivações para empreender são: possibilidade de trabalhar com o que gosta e o mercado promissor no ramo alimentício que dificilmente fica em baixa. Suas frustrações são os valores altos de matéria prima para início do projeto. Seus hobbies são: Ler, assistir filmes e visitar familiares.
+
+Rosimeri Santos tem 61 anos, é artesã e sócia de um pequeno negócio autônomo especializado em bolos, doces e biscoitos amanteigados. Suas principais motivações para empreender são: trabalhar com o que gosta, a possibilidade de trabalhar em casa e ter uma fonte de renda. Suas frustrações são as dificuldades de deslocamento e o alto valor dos equipamentos necessários para fabricar seus artesanatos. Seus hobbies são: receber visitas de amigos e atender projetos de caridade.
+
+José Mário tem 28 anos e trabalha como auxiliar de enfermagem. Suas motivações para comprar os produtos da FerRosi são: ter opções de presentes para parentes e amigos. Suas frustrações são as dificuldades em encontrar doces não industrializados. Seus hobbies são: jogos e sair com os amigos.
+
+Joana Melo tem 47 anos e trabalha como professora de ensino médio. Suas motivações para consumir os produtos da FerRosi são: a possbilidade de aliviar a tensão do trabalha com um doce bem gostoso. Suas frustrações são: não saber fazer doces caseiros. Seus Hobbies são: Visitar amigos e familiares e sair com os amigos.
+
+----------------------------------------------------------------------------------
 
 Enumere e detalhe as personas da sua solução. Para tanto, baseie-se tanto nos documentos disponibilizados na disciplina e/ou nos seguintes links:
 
@@ -22,9 +28,11 @@ Enumere e detalhe as personas da sua solução. Para tanto, baseie-se tanto nos 
 >
 Lembre-se que você deve ser enumerar e descrever precisamente e personalizada todos os clientes ideais que sua solução almeja.
 
+----------------------------------------------------------------------------------
+
 ## Histórias de Usuários
 
-Com base na análise das personas forma identificadas as seguintes histórias de usuários:
+A partir da compreensão do dia a dia das personas identificadas para o projeto, foram registradas as seguintes histórias de usuários:
 
 |EU COMO... `PERSONA`| QUERO/PRECISO ... `FUNCIONALIDADE` |PARA ... `MOTIVO/VALOR`                 |
 |--------------------|------------------------------------|----------------------------------------|
