@@ -1,7 +1,9 @@
 # Introdução
 
    Após o início da pandemia muitas pessoas se viram em uma realidade onde empreender era a única alternativa para trazer renda para suas casas. De acordo com o levantamento de dados feito pela Pnad (Pesquisa Nacional por Amostra de Domicílios Contínua) e divulgado em 27.out.2021 pelo IBGE (Instituto Brasileiro de Geografia e Estatística) nos meses de junho, julho e agosto de 2021 o número de trabalhadores por conta própria apresentou um crescimento de 4,3%, ou seja, mais de 1 milhão de pessoas no trimestre e de 18,1% na comparação anual.
+   
    Muitos profissionais que nunca tinham pensado em ter um negócio se viram em uma realidade de dificuldade financeira. Junto com isso, muitos consumidores foram atingidos pelas restrições de circulação, o que fomentou os setores de alimentação combinado com entregas por aplicativos móveis.
+   
    O setor de alimentação costuma ser um dos últimos afetados pelas crises econômicas, uma vez que é uma necessidade básica. A área de alimentação costuma ser uma opção de empreendimento com baixo valor de entrada e em um cenário de lojas fechadas, pode facilmente ser desenvolvido de uma residência.
 
 ## Problema
