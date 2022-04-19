@@ -7,7 +7,8 @@
    O setor de alimentação costuma ser um dos últimos afetados pelas crises econômicas, uma vez que é uma necessidade básica. A área de alimentação costuma ser uma opção de empreendimento com baixo valor de entrada e em um cenário de lojas fechadas, pode facilmente ser desenvolvido de uma residência.
 
 ## Problema
-Nesse momento você deve apresentar o problema que a sua aplicação deve  resolver. No entanto, não é a hora de comentar sobre a aplicação.
+
+   Com o início das atividades autônomas, se tornam prioridades para um profissional a aquisição dos itens primários para o negócio, seja ferramentas, ingredientes e as formas de anúncio para realização do produto e/ou serviço. Torna-se alto os custos ou inviável a contratação de empresas para o desenvolvimento de uma página WEB.
 
 Descreva também o contexto em que essa aplicação será usada, se  houver: empresa, tecnologias, etc. Novamente, descreva apenas o que de  fato existir, pois ainda não é a hora de apresentar requisitos  detalhados ou projetos.
 
