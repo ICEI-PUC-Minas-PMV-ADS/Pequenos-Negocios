@@ -5,6 +5,66 @@
 
 Descreva aqui a metodologia de trabalho do grupo para atacar o problema. Definições sobre os ambiente de trabalho utilizados pela  equipe para desenvolver o projeto. Abrange a relação de ambientes utilizados, a estrutura para gestão do código fonte, além da definição do processo e ferramenta através dos quais a equipe se organiza (Gestão de Times).
 
+A metodologia deste projeto comtempla a utilização das ferramentas proporcionadas no GitHub como o quadro de tarefas KABAN e hospedagem do projeto para visualização online, o aplicativo Visual Studio Code para manutenção dos códigos de forma externa e o Marvel APP para apoio na codificação do wireframe desenvolvido.
+
+# Relação de Ambientes de Trabalho
+Os artefatos do projeto são desenvolvidos a partir das plataformas mencionadas na seção anterior e a relação dos ambientes com seu respectivo propósito é apresentada na tabela que se segue. 
+
+Ambiente	Plataforma	Link de Acesso
+Repositório de código fonte	GitHub	https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-1-e1-proj-web-t4-pequenos-negocios
+
+Documentos do projeto	Google Drive	https://drive.google.com/drive/folders/1F5W7bhJfh2xoDUMyBPkG1JuwXOveb86b?usp=sharing
+
+Projeto de Interface e  Wireframes	MarvelApp	https://marvelapp.com/prototype/615ej48
+
+Gerenciamento do Projeto	GitHub	https://trello.com/b/LupglzUz/tiaw-template
+
+
+Gestão de código fonte
+A gestão do código fonte do projeto é baseada no conteúdo proporcionado na orientação do projeto, que se dá pela opção commit no GitHub sendo atualizado os requisitos implementados ou ajustados no código fonte, ao mesmo tempo em que se atualiza os cards de sprints apresentados no quadro de tarefas.
+
+
+
+Figura X - Fluxo de controle do código fonte no repositório git
+
+Gerenciamento do Projeto
+A equipe utiliza metodologias ágeis, tendo escolhido o Scrum como base para definição do processo de desenvolvimento.
+
+
+A equipe está organizada da seguinte forma:
+●	Scrum Master: Ricardo Junior
+●	Product Owner: Marcellus Soares
+●	Equipe de Desenvolvimento
+○	Nicolas Silva
+○	Pedro Ferreira
+○	Ramon Reis
+●	Equipe de Design
+○	Gabriel Ferreira
+
+Para organização e distribuição das tarefas do projeto, a equipe está utilizando o quadro de tarefas do GitHub KANBAN estruturado com as seguintes listas: 
+
+●	A FAZER: esta lista mantém cartões de tarefas a serem realizadas (seja uma funcionalidade ou artefato) pelos integrantes do grupo. Cada cartão contém o título da tarefa, a descrição (contendo links) e o(os) responsável(eis)
+●	FAZENDO: recebe os cartões de tarefas que estão sendo desenvolvidas
+●	ANALISE: Esta demonstra cartões que foram executados, mas que devem ser avaliados e discutido pela equipe para determinar a atualização da tarefa para FEITO.
+●	FEITO: Esta lista representa o cartão que já foram executados, avaliados e dados como feito.
+
+●	TRANCADA: Quando alguma coisa impede a conclusão da tarefa, ela é movida para esta lista juntamente com um comentário sobre o que está travando a tarefa.
+
+O quadro kanban do grupo no GitHub pode ser visualizado no link https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-1-e1-proj-web-t4-pequenos-negocios/projects/1 e é apresentado, no estado atual, na Figura 1. A definição desta estrutura se baseou na proposta feita por Littlefield (2016).
+
+ ![2022-04-20_00h44_01](https://user-images.githubusercontent.com/103546804/164146334-dd71094b-ff30-40ee-a568-6126ff332ae4.png)
+
+Figura 1 - Tela do kanban no GitHub utilizada pelo grupo
+
+A tarefas são, ainda, etiquetadas em função da natureza da atividade e seguem o seguinte esquema de cores/categorias:
+●	Documentação
+●	Desenvolvimento 
+●	Infraestrutura
+●	Testes
+●	Gerência de Projetos.
+ 
+
+
 ## Controle de Versão
 
 A ferramenta de controle de versão adotada no projeto foi o
