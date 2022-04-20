@@ -38,9 +38,12 @@ A equipe está organizada da seguinte forma:
 
 Para organização e distribuição das tarefas do projeto, a equipe está utilizando o quadro de tarefas do GitHub KANBAN estruturado com as seguintes listas: 
 
-●	A FAZER: esta lista mantém cartões de tarefas a serem realizadas (seja uma funcionalidade ou artefato) pelos integrantes do grupo. Cada cartão contém o título da tarefa, a descrição (contendo links) e o(os) responsável(eis)
+●	A FAZER: esta lista mantém cartões de tarefas a serem realizadas (seja uma funcionalidade ou artefato) pelos integrantes do grupo. Cada cartão contém o título da tarefa, a descrição (contendo links) e o(os) responsável(eis);
+
 ●	FAZENDO: recebe os cartões de tarefas que estão sendo desenvolvidas
+
 ●	ANALISE: Esta demonstra cartões que foram executados, mas que devem ser avaliados e discutido pela equipe para determinar a atualização da tarefa para FEITO.
+
 ●	FEITO: Esta lista representa o cartão que já foram executados, avaliados e dados como feito.
 
 ●	TRANCADA: Quando alguma coisa impede a conclusão da tarefa, ela é movida para esta lista juntamente com um comentário sobre o que está travando a tarefa.
@@ -64,13 +67,21 @@ Todos integrantes no grupo são usuários Admins, sendo possível realizar o com
 ### Divisão de Papéis
 A divisão está sendo seguida conforme informado na sesção de gerenciamento de projeto.
 A equipe está organizada da seguinte forma:
+
 ●	Scrum Master: Ricardo Junior
+
 ●	Product Owner: Marcellus Soares
+
 ●	Equipe de Desenvolvimento
+
 ○	Nicolas Silva
+
 ○	Pedro Ferreira
+
 ○	Ramon Reis
+
 ●	Equipe de Design
+
 ○	Gabriel Ferreira
 
 ### Processo
