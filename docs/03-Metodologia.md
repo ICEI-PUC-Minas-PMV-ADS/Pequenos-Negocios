@@ -3,8 +3,6 @@
 
 <span style="color:red">Pré-requisitos: <a href="2-Especificação do Projeto.md"> Documentação de Especificação</a></span>
 
-Descreva aqui a metodologia de trabalho do grupo para atacar o problema. Definições sobre os ambiente de trabalho utilizados pela  equipe para desenvolver o projeto. Abrange a relação de ambientes utilizados, a estrutura para gestão do código fonte, além da definição do processo e ferramenta através dos quais a equipe se organiza (Gestão de Times).
-
 A metodologia deste projeto comtempla a utilização das ferramentas proporcionadas no GitHub como o quadro de tarefas KABAN e hospedagem do projeto para visualização online, o aplicativo Visual Studio Code para manutenção dos códigos de forma externa e o Marvel APP para apoio na codificação do wireframe desenvolvido.
 
 # Relação de Ambientes de Trabalho
@@ -23,9 +21,6 @@ Gerenciamento do Projeto	GitHub	https://trello.com/b/LupglzUz/tiaw-template
 Gestão de código fonte
 A gestão do código fonte do projeto é baseada no conteúdo proporcionado na orientação do projeto, que se dá pela opção commit no GitHub sendo atualizado os requisitos implementados ou ajustados no código fonte, ao mesmo tempo em que se atualiza os cards de sprints apresentados no quadro de tarefas.
 
-
-
-Figura X - Fluxo de controle do código fonte no repositório git
 
 Gerenciamento do Projeto
 A equipe utiliza metodologias ágeis, tendo escolhido o Scrum como base para definição do processo de desenvolvimento.
@@ -55,15 +50,6 @@ O quadro kanban do grupo no GitHub pode ser visualizado no link https://github.c
  ![2022-04-20_00h44_01](https://user-images.githubusercontent.com/103546804/164146334-dd71094b-ff30-40ee-a568-6126ff332ae4.png)
 
 Figura 1 - Tela do kanban no GitHub utilizada pelo grupo
-
-A tarefas são, ainda, etiquetadas em função da natureza da atividade e seguem o seguinte esquema de cores/categorias:
-●	Documentação
-●	Desenvolvimento 
-●	Infraestrutura
-●	Testes
-●	Gerência de Projetos.
- 
-
 
 ## Controle de Versão
 
