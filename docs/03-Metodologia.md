@@ -15,7 +15,7 @@ Documentos do projeto	Google Drive	https://drive.google.com/drive/folders/1F5W7b
 
 Projeto de Interface e  Wireframes	MarvelApp	https://marvelapp.com/prototype/615ej48
 
-Gerenciamento do Projeto	GitHub	https://trello.com/b/LupglzUz/tiaw-template
+Gerenciamento do Projeto	GitHub	https://github.com/ICEI-PUC-Minas-PMV-ADS/Pequenos-Negocios/projects/1
 
 
 Gestão de código fonte
