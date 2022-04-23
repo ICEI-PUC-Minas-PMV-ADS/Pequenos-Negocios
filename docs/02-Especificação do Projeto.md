@@ -1,6 +1,6 @@
 # Especificações do Projeto
 
-<span style="color:red">Pré-requisitos: <a href="1-Documentação de Contexto.md"> Documentação de Contexto</a></span>
+<span style="color:red">Pré-requisitos: <a href="https://github.com/ICEI-PUC-Minas-PMV-ADS/Pequenos-Negocios/blob/main/docs/01-Documenta%C3%A7%C3%A3o%20de%20Contexto.md"> Documentação de Contexto</a></span>
 
 A definição do problema foi levantada a partir de entrevistas realizadas com pessoas que já trabalham no ramo e usuários dos produtos que serão oferecidos. Os detalhes desse processo de entrevistas foram consolidados na forma de personas e histórias de usuários.
 
