@@ -13,7 +13,7 @@ Exemplo
 A solução implementada conta com os seguintes módulos:
 - **Navegador** - Interface básica do sistema  
  - **Páginas Web** - Conjunto de arquivos HTML, CSS, JavaScript e imagens que implementam as funcionalidades do sistema.
- - **News API Instagram** - plataforma que permite o acesso às notícias exibidas no site.
+ - **API Instagram** - plataforma exibe as últimas postagens do Instagram.
  - **Hospedagem** - local na Internet onde as páginas são mantidas e acessadas pelo navegador. 
 
 
