@@ -10,7 +10,7 @@ Importante destacar que  o projeto foi elaborado de forma a atender os requisito
 O diagrama abaixo apresenta o fluxo de interação do usuário pelas telas do sistema. Cada uma das telas desse fluxo é detalhada na secão do Wireframe no próximo tópico.
 Para visualizar o wireframe interativo, acesse o <a href="https://marvelapp.com/prototype/615ej48"> MarvelApp do projeto</a>.
 
-![Exemplo de UserFlow](img/userflow.png)
+![img](img/UserFlow.png)
 
 # Wireframes
 
