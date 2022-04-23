@@ -46,7 +46,7 @@ A tela produtos apresenta os itens disponíveis para fabricação, dividido em c
 A tela contato apresenta os dados de contato e possibilita o envio de mensagem via formulário.
 Apresentamos também informações sobre a localização através de um mapa.
 
-![img](img/formulario%20e%20contato.jpg)
+![img](img/formulario-e-contato.jpg)
 
 ## Tela Curiosidades
 
@@ -60,5 +60,5 @@ A seção curiosidades apresenta 3 curiosodades sobre culinária, e o conteúdo 
 A tela carrinho agrupa os itens selecionados na página produtos totalizando o pedido do cliente com a possibilidade de envia-lo via Whatsapp.
 Existe a possibilidade de alteração das quantidades e remoção de itens.
 
-![img](img/sacola%20carrinho.jpg)
+![img](img/sacola-carrinho.jpg)
 
