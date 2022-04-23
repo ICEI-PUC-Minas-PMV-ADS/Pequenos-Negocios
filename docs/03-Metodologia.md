@@ -27,14 +27,23 @@ A equipe utiliza metodologias ágeis, tendo escolhido o Scrum como base para def
 
 
 A equipe está organizada da seguinte forma:
-●	Scrum Master: Ricardo Junior
-●	Product Owner: Marcellus Soares
-●	Equipe de Desenvolvimento
-○	Nicolas Silva
-○	Pedro Ferreira
-○	Ramon Reis
-●	Equipe de Design
-○	Gabriel Ferreira
+
+● **Scrum Master**: Ricardo Junior
+
+●	**Product Owner**: Marcellus Soares
+
+●	**Equipe de Desenvolvimento**
+
+- Nicolas Silva
+
+- Pedro Ferreira
+
+- Ramon Reis
+
+●	**Equipe de Design**
+
+- Gabriel Ferreira
+
 
 Para organização e distribuição das tarefas do projeto, a equipe está utilizando o quadro de tarefas do GitHub KANBAN estruturado com as seguintes listas: 
 
@@ -48,11 +57,9 @@ Para organização e distribuição das tarefas do projeto, a equipe está utili
 
 ●	TRANCADA: Quando alguma coisa impede a conclusão da tarefa, ela é movida para esta lista juntamente com um comentário sobre o que está travando a tarefa.
 
-O quadro kanban do grupo no GitHub pode ser visualizado no link https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-1-e1-proj-web-t4-pequenos-negocios/projects/1 e é apresentado, no estado atual, na Figura 1. A definição desta estrutura se baseou na proposta feita por Littlefield (2016).
+O quadro kanban do grupo no GitHub pode ser visualizado no link https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-1-e1-proj-web-t4-pequenos-negocios/projects/1 e é apresentado, no estado atual, na Figura abaixo:
 
  ![2022-04-20_00h44_01](https://user-images.githubusercontent.com/103546804/164146334-dd71094b-ff30-40ee-a568-6126ff332ae4.png)
-
-Figura 1 - Tela do kanban no GitHub utilizada pelo grupo
 
 ## Controle de Versão
 
@@ -68,21 +75,21 @@ Todos integrantes no grupo são usuários Admins, sendo possível realizar o com
 A divisão está sendo seguida conforme informado na sesção de gerenciamento de projeto.
 A equipe está organizada da seguinte forma:
 
-●	Scrum Master: Ricardo Junior
+● **Scrum Master**: Ricardo Junior
 
-●	Product Owner: Marcellus Soares
+●	**Product Owner**: Marcellus Soares
 
-●	Equipe de Desenvolvimento
+●	**Equipe de Desenvolvimento**
 
-○	Nicolas Silva
+- Nicolas Silva
 
-○	Pedro Ferreira
+- Pedro Ferreira
 
-○	Ramon Reis
+- Ramon Reis
 
-●	Equipe de Design
+●	**Equipe de Design**
 
-○	Gabriel Ferreira
+- Gabriel Ferreira
 
 ### Processo
 
