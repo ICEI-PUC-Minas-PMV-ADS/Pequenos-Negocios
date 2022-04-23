@@ -36,6 +36,7 @@ São protótipos usados em design de interface para sugerir a estrutura de um si
 
 ## Tela Home Page
 
+![img](https://github.com/ICEI-PUC-Minas-PMV-ADS/Pequenos-Negocios/blob/main/docs/img/home.jpg)
 
 ## Tela Sobre
 
@@ -44,19 +45,21 @@ O carrosel com as útimas posatagens setrá linkado com o Instagram.
 A barra superior do Menu apresenta os mesmo elementos da Home Page.
 O footer direciona para a página de contato / formulário.
 
-
 ![img](https://github.com/ICEI-PUC-Minas-PMV-ADS/Pequenos-Negocios/blob/main/docs/img/sobre.jpg)
-
 
 ## Tela Produtos
 
+![img](https://github.com/ICEI-PUC-Minas-PMV-ADS/Pequenos-Negocios/blob/main/docs/img/prod.jpg)
 
 ## Tela Contato / Formulário
 
+![img](https://github.com/ICEI-PUC-Minas-PMV-ADS/Pequenos-Negocios/blob/main/docs/img/formulario%20e%20contato.jpg)
 
 ## Tela Curiosidades
 
+![img](https://github.com/ICEI-PUC-Minas-PMV-ADS/Pequenos-Negocios/blob/main/docs/img/curiosidades.jpg)
 
 ## Tela Carrinho / Sacola
 
+![img](https://github.com/ICEI-PUC-Minas-PMV-ADS/Pequenos-Negocios/blob/main/docs/img/sacola%20carrinho.jpg)
 
