@@ -38,6 +38,9 @@ São protótipos usados em design de interface para sugerir a estrutura de um si
 
 ## Tela Home Page
 
+A tela inicial da página - o cartão de visita - primeiramente apresenta uma seção com cards de conteúdo convidativo aos produtos.
+Seção com vídeos feitos pelas microeemprededoras na plataforma de vídeos YouTube, e seção com depoimentos de clientes.
+
 ![img](https://github.com/ICEI-PUC-Minas-PMV-ADS/Pequenos-Negocios/blob/main/docs/img/home.jpg)
 
 ## Tela Sobre
