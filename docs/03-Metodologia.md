@@ -104,5 +104,5 @@ As ferramentas empregadas no projeto são:
 - Ferramentas de comunicação: Whatsapp, Teams.
 - Ferramentas de desenho de tela (_wireframing_): MarvelAPP
 
-O editor de código foi pelo grupo pois é o mais prático e acessível para os integrantes. Tem um bom dicionário de erros no código e permite acompanhar alterações em tempo real através do navegador.
+O editor de código foi escolhido pelo grupo pois é o mais prático e acessível para os integrantes. Tem um bom dicionário de erros no código e permite acompanhar alterações em tempo real através do navegador.
 
