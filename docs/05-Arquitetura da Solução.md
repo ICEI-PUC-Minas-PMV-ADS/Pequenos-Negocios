@@ -6,7 +6,7 @@ Nesta seção são apresentamos os detalhes técnicos da solução criada pela e
 
 Os componentes que fazem parte da solução são apresentados na Figura conforme abaixo:
 
-![img] (img/Arquitetura.png)
+![img](img/Arquitetura.png)
 
 
 A solução implementada conta com os seguintes módulos:
