@@ -36,6 +36,12 @@ São protótipos usados em design de interface para sugerir a estrutura de um si
 > - [Axure](https://www.axure.com/edu) (Licença Educacional)
 > - [InvisionApp](https://www.invisionapp.com/) (Licença Educacional)
 
+# Cabeçalho e Rodapé
+
+A barra superior do Menu e o footer apresentam os mesmos elementos em todas as páginas.
+O footer direciona para a página de contato / formulário.
+Na página formulário, o footer direcionará para a Home Page.
+
 ## Tela Home Page
 
 A tela inicial da página - o cartão de visita - primeiramente apresenta uma seção com cards de conteúdo convidativo aos produtos.
@@ -46,25 +52,34 @@ Seção com vídeos feitos pelas microeemprededoras na plataforma de vídeos You
 ## Tela Sobre
 
 A tela sobre apreresenta a missão, visão e valores da empresa.
-O carrosel com as útimas posatagens setrá linkado com o Instagram.
-A barra superior do Menu apresenta os mesmo elementos da Home Page.
-O footer direciona para a página de contato / formulário.
+O carrosel com as útimas posatagens será linkado com o Instagram.
 
 ![img](https://github.com/ICEI-PUC-Minas-PMV-ADS/Pequenos-Negocios/blob/main/docs/img/sobre.jpg)
 
 ## Tela Produtos
 
+A tela produtos apresenta os itens disponíveis para fabricação, dividido em cards com fotos, descrição e preço dos produtos.
+
 ![img](https://github.com/ICEI-PUC-Minas-PMV-ADS/Pequenos-Negocios/blob/main/docs/img/prod.jpg)
 
 ## Tela Contato / Formulário
+
+A tela contato apresenta os dados de contato e possibilita o envio de mensagem via formulário.
+Apresentamos também informações sobre a localização através de um mapa.
 
 ![img](https://github.com/ICEI-PUC-Minas-PMV-ADS/Pequenos-Negocios/blob/main/docs/img/formulario%20e%20contato.jpg)
 
 ## Tela Curiosidades
 
+A tela curiosidades trás informações sobre o mundo da culinária com o objetivo de motivar os possíveis clientes visitarem o site.
+A seção curiosidades apresenta 3 curiosodades sobre culinária, e o conteúdo é dividido entre imagem e texto.
+
 ![img](https://github.com/ICEI-PUC-Minas-PMV-ADS/Pequenos-Negocios/blob/main/docs/img/curiosidades.jpg)
 
-## Tela Carrinho / Sacola
+## Tela Carrinho
+
+A tela carrinho agrupa os itens selecionados na página produtos totalizando o pedido do cliente com a possibilidade de envia-lo via Whatsapp.
+Existe a possibilidade de alteração das quantidades e remoção de itens.
 
 ![img](https://github.com/ICEI-PUC-Minas-PMV-ADS/Pequenos-Negocios/blob/main/docs/img/sacola%20carrinho.jpg)
 
