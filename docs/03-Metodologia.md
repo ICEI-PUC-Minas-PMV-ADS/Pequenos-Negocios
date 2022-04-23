@@ -1,7 +1,7 @@
 
 # Metodologia
 
-<span style="color:red">Pré-requisitos: <a href="2-Especificação do Projeto.md"> Documentação de Especificação</a></span>
+<span style="color:red">Pré-requisitos: <a href="https://github.com/ICEI-PUC-Minas-PMV-ADS/Pequenos-Negocios/blob/main/docs/02-Especifica%C3%A7%C3%A3o%20do%20Projeto.md"> Documentação de Especificação</a></span>
 
 A metodologia deste projeto comtempla a utilização das ferramentas proporcionadas no GitHub como o quadro de tarefas KABAN e hospedagem do projeto para visualização online, o aplicativo Visual Studio Code para manutenção dos códigos de forma externa e o Marvel APP para apoio na codificação do wireframe desenvolvido.
 
