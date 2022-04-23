@@ -39,6 +39,14 @@ São protótipos usados em design de interface para sugerir a estrutura de um si
 
 ## Tela Sobre
 
+A tela sobre apreresenta a missão, visão e valores da empresa.
+O carrosel com as útimas posatagens setrá linkado com o Instagram.
+A barra superior do Menu apresenta os mesmo elementos da Home Page.
+O footer direciona para a página de contato / formulário.
+
+
+https://github.com/ICEI-PUC-Minas-PMV-ADS/Pequenos-Negocios/blob/main/docs/img/sobre.jpg
+
 
 ## Tela Produtos
 
