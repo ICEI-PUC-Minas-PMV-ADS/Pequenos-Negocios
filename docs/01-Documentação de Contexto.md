@@ -12,7 +12,7 @@
 
 ## Objetivos
 
-   O objetivo geral deste trabalho é a criação de um site responsivo que forneça todo o conteúdo necessário para apresentação, visibilidade e contatos do negócio na WEB. 
+   O objetivo geral deste trabalho é a criação de um site responsivo para as autonomas Fernanda e Rosimeire sócias do Ferrosi que forneça todo o conteúdo necessário para apresentação, aumento de vendas e contatos para negócio na WEB até 07 de Julho de 2022.
 
 ## Justificativa
 
