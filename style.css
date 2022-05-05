@@ -1,47 +1,87 @@
+div, article, section, nav, header, main, footer, img {
+    transition: all .3s ease;
+    transition-delay: 0.2s;
+}
+
+.wpp-icon{
+    height:64px;
+    position:fixed;
+    bottom: 25px; 
+    right: 25px;
+    z-index:1;
+}
+
+.wpp-icon:hover{
+    height: 60px;
+}
+
 li {
     list-style-type: none;
     display: inline;
   }
-  ul{
+
+ul{
       margin: 0;
   }
 
+  .cabecalho{
+    height: 100%;
+    background: #c7a46c;
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    border-bottom: 5px solid #fff;
+     
+  }
+
 .menu{
-    display: flex;
-    background-color: #895b27f5;
-    height: 50px;
+    margin: 0;
+    padding: 0;
+    
+    
 }
 
 .menu-area{
     display: flex;
     align-items: center;
     padding: 0;
+    border-bottom: 5px solid #f5bb4a;
 }
 
 .menu-area a{
     text-decoration: none;
-    margin-left: 10px;
+    margin-left: 2px;
     font-size: 18px;
-    color: #fadeb0;
+    font-weight: 500;
+    color: #fff;
+    padding: 7px 3px 7px 7px;
+    border-radius: 10px;
 
+}
+.menu-area a:last-child{
+    padding-right: 8px;
 }
 
 .menu-area a:hover{
-    color: #fff;
+    color: rgb(102, 70, 23);
     transition: 0.5s;
+    background-color: rgb(255, 225, 144);
 
 }
 .logo-area{
-    height: 50px;
+    height: 60px;
     display: flex;
     justify-content: space-evenly;
     align-items: flex-start;
     padding: 0;
+    border-bottom: 5px solid #f5bb4a;
+    
 }
 
 .logomarca-cab{
     position: absolute;
-    width: 200px;
+    width: 250px;
     max-width: 50%;
 }
 
@@ -54,22 +94,25 @@ li {
    justify-content: space-around;
    align-items: center;
    padding: 0;
+   border-bottom: 5px solid #f5bb4a;
 
 }
 
 .btn-pesquisa{
-    color:#fadeb0;
-    border-color: #fadeb0;
+    color:#fff;
+    border-color: #fff;
 }
 
 .btn-pesquisa:hover {
-    color: #895b27f5;
-    background-color: #fadeb0;
-    border-color: #895b27f5;
+    color: rgb(102, 70, 23);
+    background-color: rgb(255, 225, 144);
+    border-color: rgb(255, 225, 144);
 }
 
 .destaque-area{
+    display: flex;
     padding: 0;
+    height: 100%;
 }
 
 .imagem-destaque{
@@ -78,3 +121,204 @@ li {
   
 }
 
+.card-home{
+    
+    background-color: #f5bb4a;
+    height: 280px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-weight: 500;
+    font-size: 20px;
+    color: #fff;
+}
+
+.card-home:hover{
+    box-shadow: 3px 8px 25px 3px rgba(0,0,0,0.13);
+}
+
+.card-home-meio{
+    display: flex;
+    background-color: #fff;
+    height: 280px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-weight: 500;
+    font-size: 20px;
+    color: rgb(102, 70, 23);
+    text-align: center;
+  
+}
+
+.card-home-meio:hover{
+    box-shadow: 3px 8px 25px 3px rgba(0,0,0,0.13);
+}
+
+.imagem-card-area{
+    display: flex;
+    background-color: #fff;
+    height: 150px;
+    width: 150px;
+    border-radius: 20vh;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 5vh;
+}
+
+
+.imagem-card-area-meio{
+    display: flex;
+    background-color: #f5bb4a;
+    height: 150px;
+    width: 150px;
+    border-radius: 20vh;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 5vh;
+}
+
+.imagem-card-area img{
+    width: 100px;
+    
+   
+}
+
+.imagem-card-area img:hover{
+    width: 110px;
+}
+
+.imagem-card-area-meio img{
+    width: 100px;
+}
+
+.imagem-card-area-meio img:hover{
+    width: 110px;
+    
+}
+
+.videos-area{
+    
+    flex-direction: column;
+    margin-top: 8vh;
+    margin-bottom: 8vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.videos-area h1 {
+    font-size: 35px;
+}
+
+.video{
+    margin-top: 8vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.depoimentos-area{
+    border-top: 5px solid #f5bb4a;
+    width: 100%;
+    padding: 8vh;
+    display: flex;
+    flex-direction: row;
+    background-color: #c7a46c;
+    width: 100%;
+    text-align: center;
+    margin: 0;
+}
+
+.depoimentos-area h2{
+
+    font-size: 35px;
+    color: #fff;
+}
+
+.depoimento{
+    margin-top: 8vh;
+    display: flex;
+    flex-direction: row;
+    text-align: left;
+    justify-content: space-between
+}
+
+.depoimento-card{
+
+    width: 32%;
+    display: flex;
+    flex-direction: row;
+    background-color: #fff;
+    padding: 5vh;
+    border-radius: 5vh;
+    box-shadow: 3px 8px 12px 3px rgba(0,0,0,0.13);
+}
+
+.foto-dep-area{
+    margin-right: 15px;
+}
+
+.foto-dep{
+    width: 100px;
+}
+
+.avaliacao{
+    width: 100px;
+    margin-bottom: 5px;
+}
+
+.rodape{
+    border-top: 5px solid #c7a46c;
+    width: 100%;
+    margin-top: 8vh;
+    display: flex;
+    background-color: #f5bb4a;
+}
+
+.rodape-area{
+    width: 100%;
+}
+
+.rodape-div{
+    display: flex;
+    width: 32%;
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo-rodape{
+    width: 200px;
+}
+
+.db-1{
+    justify-content: center;
+    align-items: center;
+}
+
+.rodape-div h2{
+    font-size: 25px;
+    color: #fff;
+    margin-bottom: 15px;
+}
+
+.rodape-div h3{
+    font-size: 20px;
+    
+}
+
+.redes-img{
+    width: 200px;
+}
+
+/*<--------------------------------------------------------- SOBRE --------------------------------------------->*\
+
+/*<--------------------------------------------------------- PRODUTOS --------------------------------------------->*\
+
+/*<--------------------------------------------------------- CONTATO --------------------------------------------->*\
+
+/*<--------------------------------------------------------- CURIOSIDADES --------------------------------------------->*\
