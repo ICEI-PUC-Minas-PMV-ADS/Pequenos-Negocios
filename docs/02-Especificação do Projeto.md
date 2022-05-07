@@ -27,8 +27,7 @@ A partir da compreensão do dia a dia das personas identificadas para o projeto,
 |Rosimeri Santos     | Especificar a nossa missão         | Para existirem dúvidas sobre o que queremos |
 |Rosimeri Santos     | Divulgar nosso processo de fabricação | Para nos aproximar mais dos nossos clientes e captar novos |
 |Rosimeri Santos     | Ter um ambiente de "monte seu pedido" | Para facilitar a escolha dos produtos para os cliente encomendarem |
-|José Mario          | Ter uma opção para que eu possa avaliar os produtos que vou comprar | Acho importante que o
-cliente possa saber a qualidade dos produtos |
+|José Mario          | Ter uma opção para que eu possa avaliar os produtos que vou comprar | Acho importante que o cliente possa saber a qualidade dos produtos |
 |José Mario          | Ter a possiblidade de pesquisar um produto ou serviço com facilidade | Facilidade e praticidade |
 |Joana Melo            | O site deve permitir receber postagens de outras plataformas sociais | Para reduzir/otimizar o
 tempo de uso |
