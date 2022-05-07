@@ -29,8 +29,7 @@ A partir da compreensão do dia a dia das personas identificadas para o projeto,
 |Rosimeri Santos     | Ter um ambiente de "monte seu pedido" | Para facilitar a escolha dos produtos para os cliente encomendarem |
 |José Mario          | Ter uma opção para que eu possa avaliar os produtos que vou comprar | Acho importante que o cliente possa saber a qualidade dos produtos |
 |José Mario          | Ter a possiblidade de pesquisar um produto ou serviço com facilidade | Facilidade e praticidade |
-|Joana Melo            | O site deve permitir receber postagens de outras plataformas sociais | Para reduzir/otimizar o
-tempo de uso |
+|Joana Melo            | O site deve permitir receber postagens de outras plataformas sociais | Para reduzir/otimizar o tempo de uso |
 |Joana Melo            | Em qualquer página do site, ter um botão de acesso ao WhatsApp com o número para contato | Para deixar disponível a possiblidade de contado com uma resposta rápida |
 
 ## Requisitos
