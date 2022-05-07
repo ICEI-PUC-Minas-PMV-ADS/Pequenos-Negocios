@@ -27,6 +27,12 @@ A partir da compreensão do dia a dia das personas identificadas para o projeto,
 |Rosimeri Santos     | Especificar a nossa missão         | Para existirem dúvidas sobre o que queremos |
 |Rosimeri Santos     | Divulgar nosso processo de fabricação | Para nos aproximar mais dos nossos clientes e captar novos |
 |Rosimeri Santos     | Ter um ambiente de "monte seu pedido" | Para facilitar a escolha dos produtos para os cliente encomendarem |
+|José Mario          | Ter uma opção para que eu possa avaliar os produtos que vou comprar | Acho importante que o
+cliente possa saber a qualidade dos produtos |
+|José Mario          | Ter a possiblidade de pesquisar um produto ou serviço com facilidade | Facilidade e praticidade |
+|Joana Melo            | O site deve permitir receber postagens de outras plataformas sociais | Para reduzir/otimizar o
+tempo de uso |
+|Joana Melo            | Em qualquer página do site, ter um botão de acesso ao WhatsApp com o número para contato | Para deixar disponível a possiblidade de contado com uma resposta rápida |
 
 ## Requisitos
 
@@ -48,7 +54,6 @@ O escopo funciona do projeto é definido por meio dos requisitos funcionais que 
 |RNF-010| O site deve apresentar, para cada produto, uma imagem correspondente | ALTA |
 |RNF-011| O site deve permitir visualizar as informações de contatos do mantenedor do site | MÉDIA |
 |RNF-012| O site deve apresentar botão estático de whatsapp em todas as páginas | ALTA |
-
 
 ### Requisitos não Funcionais
 
