@@ -5,6 +5,7 @@ O padrão de layout a ser utilizado pelo site tem correspondência ao projeto de
 ![img](img/template.png)
 
 O template criado é composto pelo seguinte layout: 
+
 ⦁	Tela principal
 
 A responsividade segue o padrão do Bootstrap
