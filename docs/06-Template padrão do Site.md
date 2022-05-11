@@ -12,4 +12,4 @@ A responsividade segue o padrão do Bootstrap
 
 ## Tela Principal
 
-Tela que abrange todas as visualizações iniciais do site e a lista de notícias gerais.
+Tela que abrange todas as visualizações iniciais do site.
