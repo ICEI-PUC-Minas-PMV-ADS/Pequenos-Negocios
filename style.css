@@ -326,6 +326,7 @@ section.galleryproducts{
     box-shadow: 1px 1px 4px black;
     padding: 1%;
     cursor: pointer;
+    text-align: center;
 }
 .galleryproducts p:hover{
     transform:scaleX(1.1);
