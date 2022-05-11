@@ -327,6 +327,8 @@ section.galleryproducts{
     padding: 1%;
     cursor: pointer;
     text-align: center;
+    background-color: #f5bb4a;
+    border-radius: 20px;
 }
 .galleryproducts p:hover{
     transform:scaleX(1.1);
