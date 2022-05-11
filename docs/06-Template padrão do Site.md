@@ -13,3 +13,5 @@ A responsividade segue o padrão do Bootstrap
 ## Tela Principal
 
 Tela que abrange todas as visualizações iniciais do site.
+
+![img](img/TelaSite.png)
