@@ -6,7 +6,8 @@ O padrão de layout a ser utilizado pelo site tem correspondência ao projeto de
 
 O template criado é composto pelo seguinte layout: 
 
-⦁	- **Tela principal** -
+- **Tela principal** -
+- **Hospedagem** -
 
 A responsividade segue o padrão do Bootstrap
 
