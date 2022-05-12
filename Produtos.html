@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
-    <title>FerRosi Belas Delícias</title>
+    <title>FerRosi Belas Delícias - Produtos</title>
 </head>
 <body>
 
@@ -22,7 +22,7 @@
                     <li>Sobre</li>
                 </a>
 
-                <a href="">
+                <a href="Produtos.html">
                     <li>Produtos</li>
                 </a>
 
@@ -36,7 +36,7 @@
                 </ul>
 
             </nav>
-            <a href="#" class="col-4 logo-area"><img class="logomarca-cab" src="/imagens/logo1.png" alt="logomarca"></a>
+            <a href="home.html" class="col-4 logo-area"><img class="logomarca-cab" src="/imagens/logo1.png" alt="logomarca"></a>
             <div class="col-4 pesquisa-area"><nav class="navbar pesquisa navbar-light ">
                 <div class="container-fluid">
                   <form class="d-flex">
@@ -47,93 +47,258 @@
               </nav>
               <a href=""><img src="/imagens/compras-icon.png" alt=""></a>
             </div>
-            <div class="col-12 destaque-area"> <img class="imagem-destaque" src="/imagens/biscoito1.jpg" alt="imagem destque"> </div>
+            <div class="col-12 destaque-area"> <img class="imagem-destaque" src="/imagens/imagem-destaque-produtos.jpg" alt="imagem destque"> </div>
         </div>
     </header>
 
-    <main>
+    <main class="main-produtos">
         <!--O conteúdo da página deve ser desenvolvido dentro da tag main -->
-        <title>Produtos</title>
-    
+
+        <h1 class="titulo-produtos"> Conheça nossos produtos!</h1>
+
     <section class="produtos">
+
             <section class="galleryproducts">
-            <img src="/imagens/Produto1.jpeg" alt="Biscoito Amanteigado Goiabinha - 100g"></a>
-            <p>Biscoito Amanteigado Goiaba</p>
+            <img src="/imagens/Produto1.png" alt="Biscoito Amanteigado Goiabinha - 100g">
+            <b><p>Biscoito Amanteigado Goiaba</p></b>
             <p>100g</p>
-            <button class="button" type="button" onclick="alert('Carrinho');">
-                Comprar
+            <!-- Button trigger modal -->
+            <button type="button" class="btn btn-warning" data-bs-toggle="modal" data-bs-target="#Modal-casadinho">
+            Detalhes
             </button>
         </section>
+
+        <!-- Modal 1 -->
+  <div class="modal fade" id="Modal-casadinho" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Biscoito Amanteigado Goiaba</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-warning" data-bs-dismiss="modal">Fechar</button>
+        </div>
+      </div>
+    </div>
+  </div>
          
         <section class="galleryproducts">
-            <img src="/imagens/Produto2.jpeg" alt="Biscoito Amanteigado Ervas Finas - 50g"></a>
-            <p>Biscoito Amanteigado Ervas Finas</p>
+            <img src="/imagens/Produto2.png" alt="Biscoito Amanteigado Goiabinha - 100g">
+            <b><p>Biscoito Amanteigado Ervas Finas</p></b>
             <p>50g</p>
-            <button class="button" type="button" onclick="alert('Carrinho');">
-                Comprar
-            </button>
+            <button type="button" class="btn btn-warning" data-bs-toggle="modal" data-bs-target="#Modal-2">
+                Detalhes
+                </button>
         </section>
+
+        <!-- Modal 2 -->
+  <div class="modal fade" id="Modal-2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Biscoito Amanteigado Ervas Finas</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-warning" data-bs-dismiss="modal">Fechar</button>
+        </div>
+      </div>
+    </div>
+  </div>
     
         <section class="galleryproducts">
-            <img src="/imagens/Produto3.jpeg" alt="Biscoito Amanteigado Chocolate - 50g"></a>
-            <p>Biscoito Amanteigado Chocolate</p>
+            <img src="/imagens/Produto3.png" alt="Biscoito Amanteigado Goiabinha - 100g">
+            <b><p>Biscoito Amanteigado Chocolate</p></b>
             <p>50g</p>
-            <button class="button" type="button" onclick="alert('Carrinho');">
-                Comprar
-            </button>
+            <button type="button" class="btn btn-warning" data-bs-toggle="modal" data-bs-target="#Modal-3">
+                Detalhes
+                </button>
         </section>
+
+        <!-- Modal 3 -->
+  <div class="modal fade" id="Modal-3" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Biscoito Amanteigado Chocolate</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-warning" data-bs-dismiss="modal">Fechar</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+        
     
         <section class="galleryproducts">
-            <img src="/imagens/Produto4.jpeg" alt="Biscoito Amanteigado Cebola - 100g"></a>
-            <p>Biscoito Amanteigado Cebola</p>
+            <img src="/imagens/Produto4.png" alt="Biscoito Amanteigado Goiabinha - 100g">            <b><p>Biscoito Amanteigado Cebola</p></b>
             <p>100g</p>
-            <button class="button" type="button" onclick="alert('Carrinho');">
-                Comprar
-            </button>
+            <button type="button" class="btn btn-warning" data-bs-toggle="modal" data-bs-target="#Modal-4">
+                Detalhes
+                </button>
         </section>
    
+        <!-- Modal 4 -->
+  <div class="modal fade" id="Modal-4" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Biscoito Amanteigado Cebola</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-warning" data-bs-dismiss="modal">Fechar</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
         <section class="galleryproducts">
-            <img src="/imagens/Produto5.jpeg" alt="Biscoito Amanteigado Queijo - 100g"></a>
-            <p>Biscoito Amanteigado Queijo</p>
+            <img src="/imagens/Produto5.png" alt="Biscoito Amanteigado Goiabinha - 100g">            <b><p>Biscoito Amanteigado Queijo</p></b>
             <p>100g</p>
-            <button class="button" type="button" onclick="alert('Carrinho');">
-                Comprar
-            </button>
+            <button type="button" class="btn btn-warning" data-bs-toggle="modal" data-bs-target="#Modal-5">
+                Detalhes
+                </button>
         </section>
 
+        <!-- Modal 5 -->
+  <div class="modal fade" id="Modal-5" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Biscoito Amanteigado Queijo</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-warning" data-bs-dismiss="modal">Fechar</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
         <section class="galleryproducts">
-            <img src="/imagens/Produto6.jpeg" alt="Caixa de Aniversário Surpresa com Bolo de 10 cm + 02 Docinhos"></a>
-            <p>Bolo Aniversário 10 cm</p>
+            <img src="/imagens/Produto6.png" alt="Biscoito Amanteigado Goiabinha - 100g">
+            <b>Bolo Aniversário 10 cm</p></b>
             <p>+ 02 Doces</p>
-            <button class="button" type="button" onclick="alert('Carrinho');">
-                Comprar
-            </button>
+            <button type="button" class="btn btn-warning" data-bs-toggle="modal" data-bs-target="#Modal-6">
+                Detalhes
+                </button>
         </section>
 
-        <section class="galleryproducts">
-            <img src="/imagens/Produto7.jpeg" alt="Caixa de Bolo no pote"></a>
-            <p>Caixa de Bolo no pote</p>
-            <button class="button" type="button" onclick="alert('Carrinho');">
-                Comprar
-            </button>
-        </section>
+        <!-- Modal 6 -->
+  <div class="modal fade" id="Modal-6" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Bolo Aniversário 10 cm</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-warning" data-bs-dismiss="modal">Fechar</button>
+        </div>
+      </div>
+    </div>
+  </div>
 
         <section class="galleryproducts">
-            <img src="/imagens/Produto8.jpeg" alt="Caneca com Cookie"></a>
-            <p>Caneca com Cookie</p>
-            <button class="button" type="button" onclick="alert('Carrinho');">
-                Comprar
-            </button>
+            <img src="/imagens/Produto7.png" alt="Biscoito Amanteigado Goiabinha - 100g">
+            <b><p>Caixa de Bolo no pote</p></b>
+            <button type="button" class="btn btn-warning" data-bs-toggle="modal" data-bs-target="#Modal-7">
+                Detalhes
+                </button>
+        </section>
+
+        <!-- Modal 7 -->
+  <div class="modal fade" id="Modal-7" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Caixa de Bolo no pote</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-warning" data-bs-dismiss="modal">Fechar</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+        <section class="galleryproducts">
+            <img src="/imagens/Produto8.png" alt="Biscoito Amanteigado Goiabinha - 100g">
+            <b><p>Caneca com Cookie</p></b>
+            <button type="button" class="btn btn-warning" data-bs-toggle="modal" data-bs-target="#Modal-8">
+                Detalhes
+                </button>
         </section>   
 
+        <!-- Modal 8 -->
+  <div class="modal fade" id="Modal-8" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Caneca com Cookie</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-warning" data-bs-dismiss="modal">Fechar</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
         <section class="galleryproducts">
-            <img src="/imagens/Produto9.png" alt="Doces Diversos"></a>
-            <p>Doces Diversos</p>
-            <button class="button" type="button" onclick="alert('Carrinho');">
-                Comprar
-            </button>
+            <img src="/imagens/Produto9.png" alt="Biscoito Amanteigado Goiabinha - 100g">
+            <b><p>Doces Diversos</p></b>
+            <button type="button" class="btn btn-warning" data-bs-toggle="modal" data-bs-target="#Modal-9">
+                Detalhes
+                </button>
         </section>  
     </section>
+
+    <!-- Modal 9 -->
+  <div class="modal fade" id="Modal-9" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Doces Diversos</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-warning" data-bs-dismiss="modal">Fechar</button>
+        </div>
+      </div>
+    </div>
+  </div>
     </main>
 
     <footer class="rodape">
@@ -159,6 +324,6 @@
             </div>
         </div>
     </footer>
-    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 </body>
 </html>

@@ -1,4 +1,4 @@
-div, article, section, nav, header, main, footer, img {
+div, article, section, nav, header, main, footer, img, p{
     transition: all .3s ease;
     transition-delay: 0.2s;
 }
@@ -319,29 +319,48 @@ ul{
 
 /*<--------------------------------------------------------- PRODUTOS --------------------------------------------->*/
 
-section.galleryproducts{
-    margin: 40px;
+.galleryproducts{
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    height: 100%;
+    margin-left: 10px;
     margin-top: 50px;
-    border: 5px solid #ccc;
-    box-shadow: 1px 1px 4px black;
+    box-shadow: 1px 1px 4px rgb(75, 49, 28);
     padding: 1%;
-    cursor: pointer;
     text-align: center;
-    background-color: #f5bb4a;
+    background-color: #ff070730;
     border-radius: 20px;
 }
+
+.main-produtos{
+    background-color: #c7a46c;
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+.titulo-produtos{
+    padding-top: 30px;
+    padding-bottom: 20px;
+    font-size: 35px;
+    font-weight: 500;
+    color: #fff;
+}
+
+
 .galleryproducts p:hover{
     transform:scaleX(1.1);
 }
-section.galleryproducts img{
+.galleryproducts img{
     width: 300px;
-    height: 350px;
+    margin-bottom: 15px;
 }
 .produtos {
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
     text-shadow: #333;
+    
 }
 
 /*Formatação de botão*/
@@ -357,6 +376,7 @@ section.galleryproducts img{
     border: 3px solid rgb(122, 122, 116);
     box-shadow: #333;
     border-radius: 10px;
+}
 /*<--------------------------------------------------------- CONTATO --------------------------------------------->*/
 
 /*<--------------------------------------------------------- CURIOSIDADES --------------------------------------------->*/
