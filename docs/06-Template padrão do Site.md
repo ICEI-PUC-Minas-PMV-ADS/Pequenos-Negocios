@@ -4,14 +4,13 @@ O padrão de layout a ser utilizado pelo site tem correspondência ao projeto de
 
 ![img](img/template.png)
 
-O template criado é composto pelo seguinte layout: 
+O template está disponível para acesso no site [URL].
 
-- **Tela principal**
 
 A responsividade segue o padrão do Bootstrap
 
 ## Tela Principal
 
-Tela que abrange todas as visualizações iniciais do site.
+Tela que abrange todas as visualizações iniciais do site, que podem ser acessadas pelo menu incial no cabeçalho.
 
 ![img](img/TelaSite.png)
