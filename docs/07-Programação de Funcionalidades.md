@@ -3,7 +3,7 @@
 Nesta seção são apresentadas as telas desenvolvidas para cada uma das funcionalidades do sistema. O respectivo endereço (URL) e outras orientações de acesso são apresentadas na sequência.
 
 ## Tela de produtos (RNF-002)
-A tela de produtos apresenta a funcionalidade com todas as informações dos produtos oferecidos, contendo fotos, valores e demais detalhes sobre os mesmos. Confira na figura abaixo:
+A tela de produtos apresenta a funcionalidade com todas as informações dos produtos oferecidos, contendo fotos e demais detalhes sobre os mesmos. Confira na figura abaixo:
 
 ![img](img/produtos1.png)
 
@@ -24,33 +24,32 @@ A tela de produtos apresenta a funcionalidade com todas as informações dos pro
 
 **Estrutura de Dados**
 
-![img](img/codigoProdutos.png)
+![img](img/codigo_produtos.png)
 
 **Instruções de acesso**
-1. Abra um navegador de Internet e informe a seguinte URL: [colocar url]
-2. A funcionalidade da sessão Produtos se encontra no segundo item do menu no lado esquerdo
+1. Abra um navegador de Internet e informe a seguinte URL: https://ferrosi-belas-delicias.gabrielsouza56.repl.co/Produtos.html
+2. A funcionalidade da sessão Produtos se encontra no segundo item do menu no cabeçalho da página.
 
 
-## Busca de informações (RNF-009)
+## Modal de detalhes dos produtos (RNF-009)
 O Cabeçalho do site apresenta a funcionalidade de buscar informações. Um exemplo da tela é apresentada na Figura abaixo:
 
-![img](img/busca.png)
+![img](img/modal-produtos.png)
 
 **Requisitos atendidos**
-- RNF-009 - O site deve conter o campo de busca
+- RNF-002 - O site deve O site deve conter uma sessão “Produtos” que contenha informações, fotos, valores e demais detalhes sobre os produtos/serviços.
 
 **Artefatos da funcionalidade**
-- home.html
+- produtos.html
 -	style.css
--	form.d-flex
 
 **Estrutura de Dados**
 
-![img](img/codigoBusca.png)
+![img](img/modal-codigo.png)
 
 **Instruções de acesso**
-1. Abra um navegador de Internet e informe a seguinte URL: [colocar url]
-2. A funcionalidade de busca está no cabeçalho do lado direito 
+1. Abra um navegador de Internet e informe a seguinte URL: [https://ferrosi-belas-delicias.gabrielsouza56.repl.co/Produtos.html]
+2. O Modal de detalhes está no botão "Detalhes" localizado nos cards dos produtos.
 
 
 ## Botão estático de WhatsApp (RNF-012)
