@@ -4,7 +4,7 @@ O padrão de layout a ser utilizado pelo site tem correspondência ao projeto de
 
 ![img](img/template.png)
 
-O template está disponível para acesso no site [URL].
+O template está disponível para acesso no site https://ferrosi-belas-delicias.gabrielsouza56.repl.co/index.html.
 
 
 A responsividade segue o padrão do Bootstrap
