@@ -5,7 +5,7 @@ Nesta seção são apresentadas as telas desenvolvidas para cada uma das funcion
 ## Tela de produtos (RNF-002)
 A tela de produtos apresenta a funcionalidade com todas as informações dos produtos oferecidos, contendo fotos, valores e demais detalhes sobre os mesmos. Confira na figura abaixo:
 
-![img](img/produtos.png)
+![img](img/produtos1.png)
 
 **Requisitos atendidos**
 - RNF-002 - O site deve conter uma sessão “Produtos” que contenha informações, fotos, valores e demais detalhes sobre os produtos/serviços
