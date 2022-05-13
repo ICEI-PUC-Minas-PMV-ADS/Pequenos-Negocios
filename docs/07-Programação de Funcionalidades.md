@@ -70,5 +70,5 @@ O site apresenta a funcionalidade de um botão estático para enviar mensagens p
 ![img](img/codigoWhatsapp.png)
 
 **Instruções de acesso**
-1. Abra um navegador de Internet e informe a seguinte URL: [colocar url]
+1. Abra um navegador de Internet e informe a seguinte URL: [https://ferrosi-belas-delicias.gabrielsouza56.repl.co/index.html]
 2. A funcionalidade do botão do WhatsApp sempre aparece no canto inferior-direito da página
