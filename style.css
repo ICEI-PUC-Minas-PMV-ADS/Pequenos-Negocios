@@ -317,6 +317,43 @@ ul{
 
 /*<--------------------------------------------------------- SOBRE --------------------------------------------->*/
 
+.main-sobre {
+    text-align: center;
+    padding-bottom: 0px;
+}
+
+.titulo-sobre {
+    padding-top: 30px;
+    padding-bottom: 10px;
+    font-size: 35px;
+    font-weight: 600;
+    color: #212529;
+}
+
+.imagem-destaque-sobre {
+
+    width: 100%;  
+    max-width: 100%;
+}
+
+#sobre-head {
+    display: flex;
+    align-items: center;
+}
+
+#sobre-head img {
+    width: 50%;
+    height: auto;
+    padding: 25px 25px;
+    border-radius: 50px;
+    margin: 15px 0;
+}
+
+#sobre-head div {
+    padding-left: 40px;
+}
+
+
 /*<--------------------------------------------------------- PRODUTOS --------------------------------------------->*/
 
 .galleryproducts{
