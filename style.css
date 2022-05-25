@@ -91,7 +91,7 @@ ul{
 
 .pesquisa-area{
    display: flex;
-   justify-content: space-around;
+   justify-content: flex-end;
    align-items: center;
    padding: 0;
    border-bottom: 5px solid #f5bb4a;
