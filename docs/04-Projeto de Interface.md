@@ -10,7 +10,7 @@ Importante destacar que  o projeto foi elaborado de forma a atender os requisito
 O diagrama abaixo apresenta o fluxo de interação do usuário pelas telas do sistema. Cada uma das telas desse fluxo é detalhada na secão do Wireframe no próximo tópico.
 Para visualizar o wireframe interativo, acesse o <a href="https://marvelapp.com/prototype/615ej48"> MarvelApp do projeto</a>.
 
-![img](img/UserFlow.png)
+![img](img/UserFlow1.png)
 
 # Wireframes
 
@@ -54,10 +54,5 @@ A seção curiosidades apresenta 3 curiosodades sobre culinária, e o conteúdo 
 
 ![img](img/curiosidades.jpg)
 
-## Tela Carrinho
 
-A tela carrinho agrupa os itens selecionados na página produtos totalizando o pedido do cliente com a possibilidade de envia-lo via Whatsapp.
-Existe a possibilidade de alteração das quantidades e remoção de itens.
-
-![img](img/sacola-carrinho.jpg)
 
