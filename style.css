@@ -334,19 +334,40 @@ ul{
     text-align: left;
 }
 
-.nossos-valores h1 {
+.nossos-valores {
+    padding: 80px 160px;
+}
+
+.vlrs h1 {
     padding-top: 25px;
     text-align: center;
 }
 
-.nossos-valores img {
+#nossos-valores {
     display: flex;
-    height: 230px;
-    width: 250px;
-    padding-left: 20px;
     align-items: center;
-    justify-content: center;
-    margin-bottom: 5vh;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+#nossos-valores .caixas {
+    width: 180px;
+    text-align: center;
+    padding: center;
+    padding: 25px 15px;
+    box-shadow: 20px 20px 34px rgba(0, 0, 0, 0.03);
+    border: 1px solid #cce7d0;
+    border-radius: 4px;
+    margin: 15px 0;
+}
+
+#nossos-valores .caixas:hover {
+    box-shadow: 10px 10px 54px rgba(70, 62, 221, 0.1);
+}
+
+#nossos-valores .caixas img{
+    width: 100%;
+    margin-bottom: 10px;
 }
 
 .titulo-sobre {
