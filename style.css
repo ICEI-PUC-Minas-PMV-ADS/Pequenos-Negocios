@@ -322,6 +322,21 @@ ul{
     padding-bottom: 0px;
 }
 
+.main-sobre h1 {
+    padding-left: 30px;
+    text-align: left;
+}
+
+.main-sobre p {
+    padding-left: 30px;
+    text-align: left;
+}
+
+.nossos-valores h1 {
+    padding-top: 25px;
+    text-align: center;
+}
+
 .titulo-sobre {
     padding-top: 30px;
     padding-bottom: 10px;
