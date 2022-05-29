@@ -425,5 +425,17 @@ ul{
     border-radius: 10px;
 }
 /*<--------------------------------------------------------- CONTATO --------------------------------------------->*/
+.end-contatos h1,h2,h3,h4 {
+    padding-left: 30px;
+    font-size: 30px;
+}
+.email-contatos {
+    padding-top: 2%;
+}
+.canto {
+    text-align: right;
+    padding-right: 10%;
+}
+
 
 /*<--------------------------------------------------------- CURIOSIDADES --------------------------------------------->*/
