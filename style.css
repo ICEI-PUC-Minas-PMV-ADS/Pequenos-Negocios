@@ -319,12 +319,8 @@ ul{
     max-width: 100%;
 }
 
-.main-sobre {
-    text-align: center;
-    padding-bottom: 0px;
-}
-
 .main-sobre h1 {
+    padding-top: 20px;
     padding-left: 30px;
     text-align: left;
 }
@@ -334,49 +330,35 @@ ul{
     text-align: left;
 }
 
-.nossos-valores {
-    padding: 80px 160px;
-}
-
-.vlrs h1 {
-    padding-top: 25px;
+.titul-valores {
+    padding-top: 40px;
+    padding-bottom: 30px;
     text-align: center;
 }
 
-#nossos-valores {
+.nossos-valores {
     display: flex;
     align-items: center;
     justify-content: space-between;
     flex-wrap: wrap;
 }
 
-#nossos-valores .caixas {
-    width: 180px;
+.nossos-valores .caixas {
+    width: 300px;
     text-align: center;
-    padding: center;
     padding: 25px 15px;
-    box-shadow: 20px 20px 34px rgba(0, 0, 0, 0.03);
-    border: 1px solid #cce7d0;
+    border: 1px solid #000000;
     border-radius: 4px;
-    margin: 15px 0;
+    margin: 0 80px;
+    margin-bottom: 50px;
 }
 
-#nossos-valores .caixas:hover {
-    box-shadow: 10px 10px 54px rgba(70, 62, 221, 0.1);
-}
-
-#nossos-valores .caixas img{
+.nossos-valores .caixas img {
     width: 100%;
     margin-bottom: 10px;
 }
 
-.titulo-sobre {
-    padding-top: 30px;
-    padding-bottom: 10px;
-    font-size: 35px;
-    font-weight: 600;
-    color: #212529;
-}
+
 
 
 /*<--------------------------------------------------------- PRODUTOS --------------------------------------------->*/

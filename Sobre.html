@@ -53,41 +53,91 @@
     <section>
 
         <main class="main-sobre">
-            <h1 class="titulo-sobre"> Missão </h1>
+            <h1> Missão </h1>
             <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat ea dolores quaerat maxime qui? Ipsa explicabo expedita a, eligendi obcaecati voluptates recusandae molestiae, aliquam impedit esse quas officia, autem iure.</p>
         </main>
 
         <main class="main-sobre">
-            <h1 class="titulo-sobre"> Visão </h1>
+            <h1> Visão </h1>
             <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe, hic assumenda tempore, cum ducimus eligendi quis rem amet fuga numquam, voluptatibus quas eaque ut expedita sint ipsam sed ex dolor?</p>
         </main>
 
     </section>
 
-    <section id="nossos-valores" class="vlrs">
+    <section class="titul-valores">
+        <h1>NOSSOS VALORES</h1>
+    </section>
 
-        <h1>NOSSOS VALORES</h1><br>
+
+    <section class="nossos-valores">
 
         <div class="caixas">
-            <img src="imagens/sobre/detalhes.jpg" alt="">
-            <h2>Atenção aos detalhes</h2>
+            <img src="imagens/sobre/sobre1.png" alt="">
+            <h4>Atenção aos detalhes</h4>
         </div>
 
         <div class="caixas">
-            <img src="imagens/sobre/bemestar.jpg" alt="">
-            <h2>Bem estar do cliente</h2>
+            <img src="imagens/sobre/sobre2.png" alt="">
+            <h4>Bem estar do cliente</h4>
         </div>
 
         <div class="caixas">
-            <img src="imagens/sobre/caseiro.jpg" alt="">
-            <h2>Toque caseiro</h2>
+            <img src="imagens/sobre/sobre3.png" alt="">
+            <h4>Toque caseiro</h4>
         </div>
 
     </section>
 
-    <!-- INSTAGRAM -->
+    <!-- INSTAGRAM - COLOCAR NO HEAD OS LINKS -->
+
+    <section class="titul-valores">
+        <h1>ÚLTIMOS POSTS DO NOSSO INSTAGRAM</h1>
+    </section>
+
+    <link rel="stylesheet" href="src/css/owl.carousel.min.css">
+    <link rel="stylesheet" href="src/css/owl.theme.default.min.css">
+    
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
 
     <section>
+        <script type="text/javascript" src="src/js/instafeed.min.js"></script>
+
+        <script src="src/js/jquery.min.js"></script>
+        <script src="src/js/owl.carousel.min.js"></script>
+
+        <div id="instafeed" class="owl-carousel owl-theme owl-loaded owl-drag"></div>
+
+        <script type="text/javascript">
+            var feed = new Instafeed({
+                accessToken: 'IGQVJVUEEyVXM4UzctWGpfblNaMENTd096MklENHZALOUNveWxNMXJEQUp5QUc3OW0xWWttbUxoM0d5bFJkaEJWbnpzVHZAGaVJDMmNndEhDVFZAuOEdQX2ZAKTHlrd1lObzdzc3dqb29yak9LQl91cVFRQwZDZD',
+                limit: 8,
+                template: '<div><a href="{{link}}" target="_blank"><img title="{{caption}}" src="{{image}}" /></a></div>',
+                
+                after: function(){
+                    $('.owl-carousel').owlCarousel({
+                        loop:true,
+                        margin:10,
+                        nav:false,
+                        responsiveClass:true,
+                        responsive:{
+                            0:{
+                                items:1,
+                            },
+                            600:{
+                                items:3,
+                            },
+                            1000:{
+                                items:5,
+                            loop:false
+                            }
+                        }
+                    })
+                }
+            });
+
+            feed.run();
+
+        </script>
 
     </section>
 
