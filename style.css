@@ -477,3 +477,17 @@ h1,h2,h3,h4{
     margin: 0;
 	color: rgb(102, 70, 23);
 }
+.imgcuriosidade {
+	width: 20%;
+	float: left;
+}	
+.imgcuriosidade img {
+	width:80%;
+	float: left;
+    border: 3px solid rgb(102, 70, 23);
+    border-radius: 10px;
+}
+.textcuriosidade {
+	width: 80%;
+	float: left;
+}
