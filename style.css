@@ -449,3 +449,7 @@ h1,h2,h3,h4{
 #sectioncuriosidade h5{
 	margin-bottom: 0vh;
 }
+#sectioncuriosidade h2{
+	padding: 5vh;
+    color: rgb(102, 70, 23);
+}
