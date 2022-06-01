@@ -18,10 +18,12 @@ div, article, section, nav, header, main, footer, img, p{
 li {
     list-style-type: none;
     display: inline;
+    padding: 0;
   }
 
 ul{
       margin: 0;
+      padding: 0;
   }
 
   .cabecalho{
@@ -361,6 +363,96 @@ ul{
 .owl-carousel {
     padding-right: 30px;
     padding-left: 30px;
+}
+
+
+/*<--------------------------------------------------------- Responsividade --------------------------------------------->*/
+
+@media (max-width: 414px){
+
+    .cabecalho{
+        width: 100%;
+        height: 100%;
+        
+    }
+
+    .menu-area {
+        padding-top: 20px;
+        justify-content: center;
+        border-bottom: 0px;
+        order: 1;
+        padding-bottom: 20px;
+    }
+
+    .logo-area{
+        padding-top: 20px;
+        height: 100%;
+        border-bottom: 0px;
+        order: 0;
+        
+    }
+
+    .logomarca-cab{
+        position: static;
+        width: 100%;
+    }
+
+    .pesquisa-area{
+        justify-content: center;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        border-bottom: 0px;
+        order: 2;
+    }
+
+    .destaque-area{
+        display: none;
+    }
+
+    .video{
+        flex-direction: column;
+    }
+
+    .video iframe{
+        max-width: 100%;
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-bottom: 10px;
+    }
+
+    .depoimento{
+        display: block;
+    }
+
+    .depoimento-card{
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .depoimentos-area{
+        padding: 1vh;
+    }
+
+    .rodape-area {
+        width: 100%;
+        display: block;
+    }
+
+    .db-1{
+        width: 100%;
+    }
+
+    .rodape-div{
+        width: 100%;
+        align-items: center;
+        text-align: center;
+    }
+
+
+
+
+
+
 }
 
 
