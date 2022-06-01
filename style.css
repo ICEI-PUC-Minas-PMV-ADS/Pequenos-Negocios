@@ -453,3 +453,15 @@ h1,h2,h3,h4{
 	padding: 5vh;
     color: rgb(102, 70, 23);
 }
+.divcuriosidade1{
+	border-top: 5px solid #c7a46c;
+    width: 100%;
+    padding: 5vh;
+    display: flex;
+    flex-direction: row;
+    background-color: #f5bb4a;
+    width: 100%;
+    text-align: left;
+    margin: 0;
+	color: #fff;
+}
