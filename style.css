@@ -18,12 +18,12 @@ div, article, section, nav, header, main, footer, img, p{
 li {
     list-style-type: none;
     display: inline;
-    padding: 0;
+    
   }
 
 ul{
       margin: 0;
-      padding: 0;
+      
   }
 
   .cabecalho{
@@ -448,6 +448,9 @@ ul{
         text-align: center;
     }
 
+    ul {
+        padding: 0;
+      }
 
 
 
