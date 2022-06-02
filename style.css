@@ -509,10 +509,12 @@ ul{
 .main-form.form-group input{
     padding: 10px;
     width: 100%;
+    padding-bottom: 50px;
 }
 
 .button {
-    padding: 10px;
+    
+    padding-bottom: 50px;
     background-color: rgb(233, 243, 139);
     color: rgb(5, 5, 5);
     border: 3px solid rgb(122, 122, 116);
