@@ -341,7 +341,7 @@ ul{
 .nossos-valores {
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-evenly;
     flex-wrap: wrap;
 }
 
@@ -351,7 +351,6 @@ ul{
     padding: 25px 15px;
     border: 1px solid #000000;
     border-radius: 4px;
-    margin: 0 80px;
     margin-bottom: 50px;
 }
 
