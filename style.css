@@ -528,19 +528,32 @@ ul{
     font-size: 16px;
     padding-left: 1%;
 }
+
 .end-contatos{
     width: 50%;
 }
+
 .form{
     width: 50%;
 }
+
+.campo {
+    margin: 2%;
+    padding: 2px;
+}
+
+input, textarea, button{
+    border-radius: 3px;
+}
+
 h1,h2,h3,h4{
     font-size: 25px;
 
 }
+
 .mapa{
     text-align: center;
-    }
+}
 
 /*<--------------------------------------------------------- CURIOSIDADES --------------------------------------------->*/
 #sectioncuriosidade h5{
