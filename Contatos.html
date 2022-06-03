@@ -103,24 +103,24 @@
         </div>
         
         <div class="form">
-            <h4 id="titulo">Formulário:</h4>
+            <h4 id="titulo">Quer nos enviar uma mensagem?</h4>
             <p id="subtitulo">Lorem ipsum dolor sit amet.</p>
-        <form>
+        <form action="mailto:ferrosipedidos@gmail.com" method="POST" enctype="text/plain">
                 <div class="campo">
                     <label for="nome"><strong>Nome</strong></label>
-                    <input type="text" name="nome" id="nome" required>
+                    <input type="text" name = "nome" id="nome" required>
                 </div>
                 <div class="campo">
                     <label for="telefone"><strong>Telefone</strong></label>
-                    <input type="tel" nome="telefone" id="telefone" required>
+                    <input type="tel" name = "telefone" id="telefone" required>
                 </div>
                 <div class="campo">
-                    <label for="email"><strong>E-mail</strong></label>
-                    <input type="email" nome="email" id-="email" required>
+                    <label for="email"><strong>Email</strong></label>
+                    <input type="email" name = "email" id-="email" required>
                 </div>
                 <div class="campo">
                     <label for="mensagem"><strong>Mensagem</strong></label>
-                    <textarea nome="mensagem" id="mensagem" required></textarea> 
+                    <textarea name = "mensagem" id="mensagem" required></textarea> 
                 </div>
                 <button class="botao" type="submit">Enviar</button>
         </form>
