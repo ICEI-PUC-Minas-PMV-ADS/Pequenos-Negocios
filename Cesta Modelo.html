@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="PT-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <title>FerRosi Belas Delícias</title>
+</head>
+<body>
+
+    <a href="https://api.whatsapp.com/send?l=pt&amp;phone=55041999999" target="_blank">
+        <img class="wpp-icon" src="/imagens/WhatsApp-icon.png" data-selector="img">
+    </a>
+
+    <header class="cabecalho">
+        <div class="row menu">
+            <nav class="col-4 menu-area"> 
+                <ul>
+                    <a href="sobre.html">
+                        <li>Sobre</li>
+                    </a>
+    
+                    <a href="Produtos.html">
+                        <li>Produtos</li>
+                    </a>
+    
+                    <a href="Contatos.html">
+                        <li>Contato</li>
+                    </a>
+    
+                    <a href="Curiosidades.html">
+                        <li>Curiosidades</li>
+                    </a>
+                </ul>
+
+            </nav>
+            <a href="#" class="col-4 logo-area"><img class="logomarca-cab" src="/imagens/logo1.png" alt="logomarca"></a>
+            <div class="col-4 pesquisa-area"><nav class="navbar pesquisa navbar-light ">
+                <div class="container-fluid">
+                  <form class="d-flex">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-pesquisa btn-outline-success" type="submit">Search</button>
+                  </form>
+                </div>
+              </nav>
+            </div>
+            <div class="col-12 destaque-area"> <img class="imagem-destaque" src="/imagens/biscoito1.jpg" alt="imagem destque"> </div>
+        </div>
+    </header>
+
+    <main>
+        <h2>Vitrine:</h2>
+
+        <div id="produtos">
+         
+        </div><!--produtos-->
+
+        <h2>Carrinho:</h2>
+
+        <div id="carrinho">
+
+        </div><!--carrinho-->
+
+        <script>
+            const items = [
+                {
+                    id: 0,
+                    nome: 'camiseta',
+                    img: 'image.jpg',
+                    quantidade: 0
+                },
+                {
+                    id: 1,
+                    nome: 'short',
+                    img: 'image.jpg',
+                    quantidade: 0
+                },
+                {
+                    id: 2,
+                    nome: 'sapato',
+                    img: 'image.jpg',
+                    quantidade: 0
+                },
+                {
+                    id: 3,
+                    nome: 'celular',
+                    img: 'image.jpg',
+                    quantidade: 0
+                },
+            ]
+
+
+            inicializarLoja = () => {
+                var containerProdutos = document.getElementById('produtos');
+                items.map((val)=>{
+                   containerProdutos.innerHTML+= `
+                   
+                   <div class="produto-single">
+                        <img src="`+val.img+`" />
+                        <p>`+val.nome+`</p>
+                        <a key="`+val.id+`" href="#">Adicionar ao carrinho!<a/>
+                    </div>
+
+                   
+                   `;
+                })
+            }
+
+            inicializarLoja();
+
+
+            atualizarCarrinho = () => {
+               var containerCarrinho = document.getElementById('carrinho');
+               containerCarrinho.innerHTML = "";
+                items.map((val)=>{
+                    if(val.quantidade > 0){
+                   containerCarrinho.innerHTML+= `
+                   
+                   <p>`+val.nome+` | quantidade: `+val.quantidade+`</p>
+                   <hr>
+
+                   
+                   `;
+                    }
+                })
+            }
+
+
+            var links = document.getElementsByTagName('a');
+
+            for(var i = 0; i < links.length; i++){
+                links[i].addEventListener("click",function(){
+                    let key = this.getAttribute('key');
+                    items[key].quantidade++;
+                    atualizarCarrinho();
+                    return false;
+                })
+            }
+           
+
+
+        </script>
+    </main>
+
+    <footer class="rodape">
+        <div class="row rodape-area">
+            <div class="col-4 rodape-div db-1">
+                <a href="home.html"><img class="logo-rodape"src="/imagens/logo1.png" alt=""></a>
+            </div>
+
+            <div class="col-4 rodape-div">
+                <div>
+                    <h2>Contatos:</h2>
+                    <h3>(021) 99955-8555</h3>
+                    <h3>(021) 2101-0101</h3>
+                    <h3>Ferrosipedidos@gmail.com</h3>
+                </div>
+            </div>
+
+            <div class="col-4 rodape-div">
+                <div>
+                    <h2>Siga-nos em nossas <br> redes sociais:</h2>
+                    <img class="redes-img"src="/imagens/redes.png" alt="Redes Sociais">
+                </div>
+            </div>
+        </div>
+    </footer>
+    
+</body>
+</html>

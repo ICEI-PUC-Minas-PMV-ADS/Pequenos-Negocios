@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<script>
+		window.addEventListener("load",function(){
+			
+			if(localStorage.getItem("name")){
+				sayMyName()
+			}else{
+				whatsYourName()
+			}
+		});
+		
+		function whatsYourName(){
+			var campo = "<input type='text' id='nome' placeholder='Qual é o seu nome'/><button id='bt-save'>Salvar</button>";
+			
+			document.body.innerHTML = campo
+			document.getElementById("bt-save").addEventListener("click",saveName)
+		}
+		
+		
+		function sayMyName(){
+			var mensagem = "<h1> Olá " + localStorage.getItem("name") + "</h1><button id='bt-remove'>Remover</button>";
+			
+			document.body.innerHTML = mensagem;
+			document.getElementById("bt-remove").addEventListener("click",removeName)
+		}
+		
+		function removeName(){
+			if(localStorage.getItem("name")){
+				localStorage.removeItem("name");
+				whatsYourName()
+			}	
+		}
+		
+		function saveName(){
+			var nome = document.getElementById("nome").value;
+			localStorage.setItem("name", nome) 
+			sayMyName();
+		}
+	</script>
+</head>
+<body>
+</body>
+</html>
