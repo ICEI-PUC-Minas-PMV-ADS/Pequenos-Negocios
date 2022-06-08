@@ -747,10 +747,11 @@ margin-bottom: 15px;
     display:flex;
     font-size: 16px;
     padding-left: 1%;
+    background-color: rgb(235, 202, 114);
 }
 
 .end-contatos{
-    width: 50%;
+width: 50%;
 }
 
 .form{
@@ -760,15 +761,6 @@ margin-bottom: 15px;
 .campo {
     margin: 2%;
     padding: 2px;
-}
-
-input, textarea, button{
-    border-radius: 3px;
-}
-
-h1,h2,h3,h4{
-    font-size: 25px;
-
 }
 
 .mapa{
