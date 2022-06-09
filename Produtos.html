@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
+    <script src="app_Produtos.js"></script>
     <title>FerRosi Belas Delícias - Produtos</title>
 </head>
 <body>
@@ -107,7 +108,7 @@
             Detalhes
             </button>
             <h1></h1>
-            <button type="buy" class="btn btn-warning" data-bs-toggle="modal" data-bs-target="#Modal-buy-casadinho">
+            <button type="submit" class="btn btn-warning" data-bs-toggle="modal" data-bs-target="#Modal-buy-1" onclick="clickButton1()">
             Comprar
             </button>
         </section>
@@ -131,12 +132,12 @@
   </div>
          
         <!-- Modal Comprar 1 -->
-        <div class="modal fade" id="Modal-buy-casadinho" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal fade" id="Modal-buy-1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
           <div class="modal-dialog">
             <div class="modal-content">
               <div class="modal-header">
                 <h5 class="modal-title" id="exampleModalLabel">Comprar Biscoito Amanteigado Goiaba</h5>
-                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                <button type="button" class="btn-buy-1" data-bs-dismiss="modal" aria-label="Close"></button>
               </div>
               <div class="modal-body">
                   Produto adicionado na sacola!
@@ -157,9 +158,9 @@
                 Detalhes
                 </button>
                 <h1></h1>
-                <button type="buy" class="btn btn-warning" data-bs-toggle="modal" data-bs-target="#Modal-buy">
+                <button type="submit" class="btn btn-warning" data-bs-toggle="modal" data-bs-target="#Modal-buy-2" onclick="clickButton2()">
                   Comprar
-                  </button>
+                </button>
         </section>
 
         <!-- Modal 2 -->
@@ -179,6 +180,24 @@
       </div>
     </div>
   </div>
+
+        <!-- Modal Comprar 2 -->
+        <div class="modal fade" id="Modal-buy-2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Comprar Biscoito Amanteigado Ervas Finas</h5>
+                <button type="button" class="btn-buy-2" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modal-body">
+                  Produto adicionado na sacola!
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-warning" data-bs-dismiss="modal">Fechar</button>
+              </div>
+            </div>
+          </div>
+        </div>
     
         <section class="galleryproducts">
             <img src="/imagens/Produto3.png" style='width:100%' alt="Biscoito Amanteigado Goiabinha - 100g">
@@ -188,7 +207,7 @@
                 Detalhes
                 </button>
                 <h1></h1>
-                <button type="buy" class="btn btn-warning" data-bs-toggle="modal" data-bs-target="#Modal-buy">
+                <button type="submit" class="btn btn-warning" data-bs-toggle="modal" data-bs-target="#Modal-buy-3" onclick="clickButton3()">
                   Comprar
                   </button>
         </section>
@@ -211,6 +230,24 @@
     </div>
   </div>
 
+        <!-- Modal Comprar 3 -->
+        <div class="modal fade" id="Modal-buy-3" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Comprar Biscoito Amanteigado Chocolate</h5>
+                <button type="button" class="btn-buy-3" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modal-body">
+                  Produto adicionado na sacola!
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-warning" data-bs-dismiss="modal">Fechar</button>
+              </div>
+            </div>
+          </div>
+        </div>
+
         
     
         <section class="galleryproducts">
@@ -220,7 +257,7 @@
                 Detalhes
                 </button>
                 <h1></h1>
-                <button type="buy" class="btn btn-warning" data-bs-toggle="modal" data-bs-target="#Modal-buy">
+                <button type="submit" class="btn btn-warning" data-bs-toggle="modal" data-bs-target="#Modal-buy-4" onclick="clickButton4()">
                   Comprar
                   </button>
         </section>
@@ -243,6 +280,24 @@
     </div>
   </div>
 
+        <!-- Modal Comprar 4 -->
+        <div class="modal fade" id="Modal-buy-4" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Comprar Biscoito Amanteigado Cebola</h5>
+                <button type="button" class="btn-buy-4" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modal-body">
+                  Produto adicionado na sacola!
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-warning" data-bs-dismiss="modal">Fechar</button>
+              </div>
+            </div>
+          </div>
+        </div>
+
         <section class="galleryproducts">
             <img src="/imagens/Produto5.png" style='width:100%' alt="Biscoito Amanteigado Goiabinha - 100g">            <b><p>Biscoito Amanteigado Queijo</p></b>
             <p>100g</p>
@@ -250,7 +305,7 @@
                 Detalhes
                 </button>
                 <h1></h1>
-                <button type="buy" class="btn btn-warning" data-bs-toggle="modal" data-bs-target="#Modal-buy">
+                <button type="submit" class="btn btn-warning" data-bs-toggle="modal" data-bs-target="#Modal-buy-5" onclick="clickButton5()">
                   Comprar
                   </button>
         </section>
@@ -273,6 +328,24 @@
     </div>
   </div>
 
+        <!-- Modal Comprar 5 -->
+        <div class="modal fade" id="Modal-buy-5" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Comprar Biscoito Amanteigado Queijo</h5>
+                <button type="button" class="btn-buy-5" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modal-body">
+                  Produto adicionado na sacola!
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-warning" data-bs-dismiss="modal">Fechar</button>
+              </div>
+            </div>
+          </div>
+        </div>
+
         <section class="galleryproducts">
             <img src="/imagens/Produto6.png" style='width:100%' alt="Biscoito Amanteigado Goiabinha - 100g">
             <b>Bolo Aniversário 10 cm</p></b>
@@ -281,7 +354,7 @@
                 Detalhes
                 </button>
                 <h1></h1>
-                <button type="buy" class="btn btn-warning" data-bs-toggle="modal" data-bs-target="#Modal-buy">
+                <button type="submit" class="btn btn-warning" data-bs-toggle="modal" data-bs-target="#Modal-buy-6" onclick="clickButton6()">
                   Comprar
                   </button>
         </section>
@@ -304,6 +377,24 @@
     </div>
   </div>
 
+        <!-- Modal Comprar 6 -->
+        <div class="modal fade" id="Modal-buy-6" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Comprar Bolo de Aniversário e 02 Doces</h5>
+                <button type="button" class="btn-buy-6" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modal-body">
+                  Produto adicionado na sacola!
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-warning" data-bs-dismiss="modal">Fechar</button>
+              </div>
+            </div>
+          </div>
+        </div>
+
         <section class="galleryproducts">
             <img src="/imagens/Produto7.png" style='width:100%' alt="Biscoito Amanteigado Goiabinha - 100g">
             <b><p>Caixa de Bolo no pote</p></b>
@@ -311,7 +402,7 @@
                 Detalhes
                 </button>
                 <h1></h1>
-                <button type="buy" class="btn btn-warning" data-bs-toggle="modal" data-bs-target="#Modal-buy">
+                <button type="submit" class="btn btn-warning" data-bs-toggle="modal" data-bs-target="#Modal-buy-7" onclick="clickButton7()">
                   Comprar
                   </button>
         </section>
@@ -334,6 +425,24 @@
     </div>
   </div>
 
+        <!-- Modal Comprar 7 -->
+        <div class="modal fade" id="Modal-buy-7" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Comprar Caixa de Bolo no Pote</h5>
+                <button type="button" class="btn-buy-7" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modal-body">
+                  Produto adicionado na sacola!
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-warning" data-bs-dismiss="modal">Fechar</button>
+              </div>
+            </div>
+          </div>
+        </div>
+
         <section class="galleryproducts">
             <img src="/imagens/Produto8.png" style='width:100%' alt="Biscoito Amanteigado Goiabinha - 100g">
             <b><p>Caneca com Cookie</p></b>
@@ -341,7 +450,7 @@
                 Detalhes
                 </button>
                 <h1></h1>
-                <button type="buy" class="btn btn-warning" data-bs-toggle="modal" data-bs-target="#Modal-buy">
+                <button type="submit" class="btn btn-warning" data-bs-toggle="modal" data-bs-target="#Modal-buy-8" onclick="clickButton8()">
                   Comprar
                   </button>
         </section>   
@@ -364,6 +473,24 @@
     </div>
   </div>
 
+        <!-- Modal Comprar 8 -->
+        <div class="modal fade" id="Modal-buy-8" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Comprar Caneca com Cookie</h5>
+                <button type="button" class="btn-buy-8" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modal-body">
+                  Produto adicionado na sacola!
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-warning" data-bs-dismiss="modal">Fechar</button>
+              </div>
+            </div>
+          </div>
+        </div>
+
         <section class="galleryproducts">
             <img src="/imagens/Produto9.png" style='width:100%' alt="Biscoito Amanteigado Goiabinha - 100g">
             <b><p>Doces Diversos</p></b>
@@ -371,9 +498,9 @@
                 Detalhes
                 </button>
                 <h1></h1>
-                <button type="buy" class="btn btn-warning" data-bs-toggle="modal" data-bs-target="#Modal-buy">
+                <button type="submit" class="btn btn-warning" data-bs-toggle="modal" data-bs-target="#Modal-buy-9" onclick="clickButton9()">
                   Comprar
-                  </button>
+                </button>
         </section>  
     </section>
 
@@ -395,12 +522,30 @@
     </div>
   </div>
 
+        <!-- Modal Comprar 9 -->
+        <div class="modal fade" id="Modal-buy-9" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Comprar Doces Diversos</h5>
+                <button type="button" class="btn-buy-9" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modal-body">
+                  Produto adicionado na sacola!
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-warning" data-bs-dismiss="modal">Fechar</button>
+              </div>
+            </div>
+          </div>
+        </div>
+
   
   <div class="coments">
   <div class="coment-box">
     <h2>Comentários</h2>
     <form action="#">
-      <script src="coments.js"></script>
+      <!--<script src="coments.js"></script> -->
       <input type="text" name="Full name" placeholder="Nome Completo">
       <input type="e-mai" name="e-mail=" placeholder="E-mail">
       <textarea name-="Coment" placeholder="Digite seu comentário"></textarea>
