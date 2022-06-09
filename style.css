@@ -684,7 +684,7 @@ ul{
     
 }
 
-/*Formatação de botão*/
+/*Formatação de botão de compra e detalhes*/
 .main-form.form-group input{
     padding: 10px;
     width: 100%;
@@ -700,9 +700,45 @@ ul{
     border-radius: 10px;
     
 }
-.coments {
-margin-left: -1000px;
-
+/*Formatação de botão de comentários*/
+.coment-box{
+font-size: 20px;
+margin: 50px;
+}
+.coment-box input{
+    width: 100%;
+    height: 40px;
+    padding: 0 10px;
+    margin-bottom:  15px;
+    border-radius: 5px;
+    border: 1px solid;
+}
+.coment-box input:focus{
+    border: 1px solid;
+    outline: 0;
+}
+.coment-box textarea{
+    width: 100%;
+    height: 150px;
+    padding: 10px;
+    margin-bottom:  10px;
+    border-radius: 5px;
+    border: 1px solid;
+}
+.coment-box textarea:focus{
+    border: 1px solid;
+    outline: 0;
+}
+.coment-box button{
+    border: 0;
+    padding: 10px 30px;
+    background: #86b0b6;
+    font-size: 18px;
+    border-radius: 5px;
+    color: #fff;
+}
+.coment-box button:hover{
+    background-color: #333;
 }
 /*<--------------------------------------------------------- CONTATO --------------------------------------------->*/
 .page {
@@ -710,10 +746,11 @@ margin-left: -1000px;
     display:flex;
     font-size: 16px;
     padding-left: 1%;
+    background-color: rgb(235, 202, 114);
 }
 
 .end-contatos{
-    width: 50%;
+width: 50%;
 }
 
 .form{
@@ -723,15 +760,6 @@ margin-left: -1000px;
 .campo {
     margin: 2%;
     padding: 2px;
-}
-
-input, textarea, button{
-    border-radius: 3px;
-}
-
-h1,h2,h3,h4{
-    font-size: 25px;
-
 }
 
 .mapa{
