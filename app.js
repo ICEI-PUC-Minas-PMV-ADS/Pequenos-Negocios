@@ -37,8 +37,8 @@
 			//pego o valor cadastrado no primeiro input do meu form
 			task.id = itensList.length;
 			task.nome = e.target[0].value;
-			task.quantidade = 2;
-			task.unit = 8;
+			task.quantidade = e.target[1].value;
+			task.unit = e.target[2].value;
 			task.valor = 0;
 			task.excluir = "false";
 			
