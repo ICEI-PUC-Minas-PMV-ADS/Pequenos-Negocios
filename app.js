@@ -33,8 +33,7 @@
 
 		function onSubmit(e){
 			var task = {};
-		
-			//pego o valor cadastrado no primeiro input do meu form
+			//pego o valor cadastrado nos inputs do form
 			task.id = itensList.length;
 			task.nome = e.target[0].value;
 			task.quantidade = e.target[1].value;
@@ -75,7 +74,7 @@
 				htmlTemp += "</ul><button>Limpar itens Marcados</button>";
 				itensOutput.innerHTML = htmlTemp;
 			}else{
-				itensOutput.innerHTML = "Nenhum item cadastrado"
+				itensOutput.innerHTML = "<h2> Nenhum item cadastrado </h2>"
 			}
 		}
 
