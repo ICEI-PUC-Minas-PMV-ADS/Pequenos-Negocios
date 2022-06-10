@@ -886,7 +886,7 @@ margin: 50px;
 	border-top: 5px solid #c7a46c;
     width: 100%;
     padding: 5vh;
-    display: flex;
+    float: left;
     flex-direction: row;
     background-color: #f5bb4a;
     width: 100%;
@@ -898,7 +898,7 @@ margin: 50px;
 	border-top: 5px solid #c7a46c;
     width: 100%;
     padding: 5vh;
-    display: flex;
+    float: left;
     flex-direction: row;
     background-color: #fff;
     width: 100%;
@@ -919,6 +919,19 @@ margin: 50px;
 .textcuriosidade {
 	width: 80%;
 	float: left;
+    margin-bottom: 1em;
+}
+span.curtir {
+    margin-right: 1.5em;
+    color: #000000;
+}
+.curtir img {
+    width: 1.7em;
+    margin-right: 0.5em;
+}
+.curtir button{
+    border: 0;
+    background: none;
 }
 /*<------------------------------------------------ Cesta de produtos ------------------------------------------>*/
 #produtos-output ul {
