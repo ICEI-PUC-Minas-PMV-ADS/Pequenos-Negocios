@@ -86,27 +86,35 @@
                 </div>
               </nav>
             </div>
-            <div class="col-12 destaque-area"> <img class="imagem-destaque" src="/imagens/biscoito1.jpg" alt="imagem destque"> </div>
+            <div class="col-12 destaque-area"> <img class="imagem-destaque" src="/imagens/destaque-contato.jpg" alt="imagem destque"> </div>
         </div>
     </header>
 
-    <main>
+    <main class="main-contato">
         <!--O conteúdo da página deve ser desenvolvido dentro da tag main -->
         <section class="page">
-        <div class="end.contatos">
+        <div class="end-contatos">
 
           <div class="db1">
+
+          <div class="area-icon-cnt">
+              <img src="/imagens/icone-de-localisation-noire.png" alt="">
+          </div>
            
             <div class="area-titulo-cnt">
                 <h2>Endereço:</h2>
             </div>
                 
             <div class="area-texto-cnt">
-                    <p>Rua FerRosi, 1256 - São Francisco, Rio de Janeiro - RJ - 30430000</p>
+                    <p>Rua FerRosi, 1256 - São Francisco, <br> Rio de Janeiro - RJ - 30430000</p>
                 </div>
             </div>
                            
             <div class="db1">
+
+                <div class="area-icon-cnt">
+                    <img src="/imagens/telex-cnt.png" alt="">    
+                </div>
                 
                 <div class="area-titulo-cnt">
                     <h2>Contatos:</h2>
@@ -119,6 +127,10 @@
             
             <div class="db1">
 
+                <div class="area-icon-cnt">
+                    <img src="/imagens/mail-cnt.png" alt="">              
+                </div>
+
             <div class="area-titulo-cnt">
                 <h2>Email:</h2>
             </div>
@@ -126,35 +138,42 @@
                 <p>Ferrosipedidos@gmail.com</p>
             </div>
         </div>
+        </div>
             
         <div class="form">
             <h4 id="titulo">Quer nos enviar uma mensagem?</h4>
             <p id="subtitulo">Lorem ipsum dolor sit amet.</p>
         <form action="mailto:ferrosipedidos@gmail.com" method="POST" enctype="text/plain">
                 <div class="campo">
-                    <label for="nome"><strong>Nome</strong></label>
+                    <label for="nome"><strong>Nome*</strong></label>
                     <input type="text" name = "nome" id="nome" required>
                 </div>
                 <div class="campo">
-                    <label for="telefone"><strong>Telefone</strong></label>
+                    <label for="telefone"><strong>Telefone*</strong></label>
                     <input type="tel" name = "telefone" id="telefone" required>
                 </div>
                 <div class="campo">
-                    <label for="email"><strong>Email</strong></label>
+                    <label for="email"><strong>Email*</strong></label>
                     <input type="email" name = "email" id-="email" required>
                 </div>
                 <div class="campo">
-                    <label for="mensagem"><strong>Mensagem</strong></label>
-                    <textarea name = "mensagem" id="mensagem" required></textarea> 
+                    <label for="mensagem"><strong>Mensagem*</strong></label>
+                    <textarea row="6" style="width:12em" name = "mensagem" id="mensagem" required></textarea> 
                 </div>
-                <button class="botao" type="submit">Enviar</button>
+                <button class="submit" type="submit">Enviar</button>
         </form>
         <br>
 
         </div>
                         </section>
-        <section class="mapa"> 
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d470400.41084660124!2d-43.72618395731017!3d-22.913252455693325!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9bde559108a05b%3A0x50dc426c672fd24e!2sRio%20de%20Janeiro%2C%20RJ!5e0!3m2!1spt-BR!2sbr!4v1654097207856!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <section class="mapa-area">             
+            <div class="titulo-mapa">
+                <h2>Confira onde estamos <br> localizados!</h2>
+            </div>
+                      
+            <div class="mapa">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d470400.41084660124!2d-43.72618395731017!3d-22.913252455693325!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9bde559108a05b%3A0x50dc426c672fd24e!2sRio%20de%20Janeiro%2C%20RJ!5e0!3m2!1spt-BR!2sbr!4v1654097207856!5m2!1spt-BR!2sbr" width="350" height="350" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
         </section>
     </main>
 
