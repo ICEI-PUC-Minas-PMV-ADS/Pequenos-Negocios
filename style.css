@@ -425,15 +425,26 @@ ul{
     max-width: 100%;
 }
 
-.main-sobre h1 {
+.main-sobre h2 {
     padding-top: 20px;
     padding-left: 30px;
     text-align: left;
+    color: #655232;
 }
 
 .main-sobre p {
     padding-left: 30px;
     text-align: left;
+}
+
+.cores-sobre {
+    background-color: #c7a56c;
+}
+
+.missao-visao {
+    padding-top: 20px;
+    border-bottom: 5px solid #fff;
+    padding-bottom: 20px
 }
 
 .titul-valores {
@@ -447,16 +458,19 @@ ul{
     align-items: center;
     justify-content: space-evenly;
     flex-wrap: wrap;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    padding-bottom: 30px;
 }
 
 .nossos-valores .caixas {
     width: 300px;
     text-align: center;
-    padding: 25px 15px;
+    padding: 10px 10px;
     border: 1px solid #000000;
-    border-radius: 4px;
-    margin: 0 80px;
-    margin-bottom: 50px;
+    border-radius: 15px;
+    margin-bottom: 20px;
+    background-color: #fff;
 }
 
 .nossos-valores .caixas img {
