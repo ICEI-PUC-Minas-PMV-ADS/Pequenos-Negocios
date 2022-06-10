@@ -6,7 +6,7 @@
 			//guarda em uma variável os elementos da main-produtos
 			produtosOutput = document.getElementById("galleryproducts");
 			if(localStorage.getItem("produtos")){
-				produtosList = JSON.parse(localStorage.getItem("produtos"));
+				readList();
 			}else{
 				produtosList = [];
 			}
@@ -18,6 +18,10 @@
 			//document.getElementById("galleryproducts").addEventListener("submit",onSubmit);
 			//produtosOutput.addEventListener("click",clickButton);
 		})
+
+		function readList(){
+			produtosList = JSON.parse(localStorage.getItem("produtos"));
+		}
 		
 		function IncluirProdutos() {
 			//incluir manualmente os produtos que serão vendidos
@@ -131,46 +135,55 @@
 		}
 
 		function clickButton1(){
+			readList();
 			produtosList[0].quantidade++;
 			saveList();
 		}
 
 		function clickButton2(){
+			readList();
 			produtosList[1].quantidade++;
 			saveList();
 		}
 
 		function clickButton3(){
+			readList();
 			produtosList[2].quantidade++;
 			saveList();
 		}
 
 		function clickButton4(){
+			readList();
 			produtosList[3].quantidade++;
 			saveList();
 		}
 
 		function clickButton5(){
+			readList();
 			produtosList[4].quantidade++;
 			saveList();
 		}
 
 		function clickButton6(){
+			readList();
 			produtosList[5].quantidade++;
 			saveList();
 		}
 
 		function clickButton7(){
+			readList();
 			produtosList[6].quantidade++;
 			saveList();
 		}
 
 		function clickButton8(){
+			readList();
 			produtosList[7].quantidade++;
 			saveList();
 		}
 
 		function clickButton9(){
+			readList();
 			produtosList[8].quantidade++;
 			saveList();
 		}
