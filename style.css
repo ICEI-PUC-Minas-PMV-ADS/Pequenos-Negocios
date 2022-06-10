@@ -831,3 +831,11 @@ width: 50%;
     width:33.3%;
     padding:0 20px;
 }
+/*<------------------------------------------------ Cesta ------------------------------------------>*/
+#produtos-output li {
+	cursor: pointer;
+}
+
+#produtos-output li[data-excluir="true"] {
+	text-decoration: line-through;
+}
