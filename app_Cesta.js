@@ -48,13 +48,13 @@
 					if(produtosList[i].quantidade > 0){ 
 						produtosList[i].valor = produtosList[i].quantidade*produtosList[i].unit;
 						totvalor = totvalor+produtosList[i].valor;
-						htmlTemp += "<h5><li data-id='"+produtosList[i].id+"' data-excluir='" + produtosList[i].excluir + "'>"+ produtosList[i].nome + " - Quantidade: "+ produtosList[i].quantidade + " - Valor: R$ "+ produtosList[i].valor + "</li></h5>"
+						htmlTemp += "<h5><li data-id='"+produtosList[i].id+"' data-excluir='" + produtosList[i].excluir + "'><img src="+produtosList[i].img+">" + produtosList[i].nome + " - Quantidade: "+ produtosList[i].quantidade + " - Valor: R$ "+ produtosList[i].valor + "</li></h5>"
 					}
 				}
 				if(totvalor > 0){
 					htmlTemp += "<h2> Total da compra: R$ "+totvalor+"</h2>";
-					htmlTemp += "</ul><button type= 'submit' onclick= 'clearList()'>Limpar produtos Marcados</button> ";
-					htmlTemp += "<button type= 'submit' onclick= 'comprar()'>Finalizar compra</button>";
+					htmlTemp += "</ul><button type= 'submit' class='btn btn-warning left' onclick= 'clearList()'>Limpar produtos Marcados</button> ";
+					htmlTemp += "<button type= 'submit' class='btn btn-warning' onclick= 'comprar()'>Finalizar compra</button>";
 					produtosOutput.innerHTML = htmlTemp;
 				}
 				else{

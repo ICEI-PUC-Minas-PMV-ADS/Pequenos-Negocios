@@ -826,30 +826,30 @@ width: 50%;
 	width: 80%;
 	float: left;
 }
-/*<--------------------------------------------------------- CESTA --------------------------------------------->*/
-#produtos{
-    max-width: 900px;
-    margin:0 auto;
-    padding:0 2%;
-    display: flex;
-}
-
-#carrinho{
-    max-width: 900px;
-    margin:0 auto;
-    padding:0 2%;
-    display: block;
-}
-
-.produto-single{
-    width:33.3%;
-    padding:0 20px;
-}
 /*<------------------------------------------------ Cesta de produtos ------------------------------------------>*/
+#produtos-output ul {
+    margin: 1em;
+}
 #produtos-output li {
 	cursor: pointer;
+    border-bottom: solid 1px #ccc;
+    margin: 1em;
+}
+
+#produtos-output li img {
+    height: 7%; 
+    width:7%;
+    padding: 0.5em; 
 }
 
 #produtos-output li[data-excluir="true"] {
 	text-decoration: line-through;
+}
+
+#produtos-output h5 {
+    margin-left: 3em;    
+}
+
+#sectioncesta button.left {
+    margin-left: 3em;
 }
