@@ -16,7 +16,7 @@ var todoList;
 				todoOutput.innerHTML = "Nenhum comentário"
 			}
 			//adiciona o listener para o evento submit, utilizei form para usar o required do input HTML
-			document.getElementById("form-task").addEventListener("submit",onSubmit);
+			document.getElementById("form").addEventListener("submit",onSubmit);
 			todoOutput.addEventListener("click",clickList)
         })
 		
@@ -36,7 +36,7 @@ var todoList;
 		
 			//pego o valor cadastrado no primeiro input do meu form
 			
-            task.nome = e.target[0].string;
+            task.nome = e.target[0].value;
             task.descricao = e.target [1].value;
 			task.date = new Date();
             task.id = todoList.length;
