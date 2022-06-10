@@ -7,6 +7,7 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
     <script src="app_Produtos.js"></script>
+    <script src="coments.js"></script>
     <title>FerRosi Belas Delícias - Produtos</title>
 </head>
 <body>
@@ -540,20 +541,19 @@
           </div>
         </div>
 
+        <h2>Comentários</h2>
   
-  <div class="coments">
-  <div class="coment-box">
-    <h2>Comentários</h2>
-    <form action="#">
-      <!--<script src="coments.js"></script> -->
-      <input type="text" name="Full name" placeholder="Nome Completo">
-      <input type="e-mai" name="e-mail=" placeholder="E-mail">
-      <textarea name-="Coment" placeholder="Digite seu comentário"></textarea>
+  <div id="coment-box" class="coment-box"></div>
+      <form id="form-task" >
+      <input type="text" name="Nome" placeholder="Nome Completo">
+      <input type="text" name="descricao" placeholder="Digite seu comentário">
       <Button type="submit"> Enviar</Button>
     </form>
-  </div>
-  </div>
+  
+
+
   </main>
+
 
     <footer class="col-12 rodape">
       <div class="row rodape-area">
