@@ -6,7 +6,7 @@
 			//guarda em uma variável o elemento produtos-output
 			produtosOutput = document.getElementById("produtos-output")
 			if(localStorage.getItem("produtos")){
-				produtosList = JSON.parse(localStorage.getItem("produtos"));
+				readList()
 				showList()
 			}else{
 				produtosList = [];
@@ -29,6 +29,10 @@
 				clearList()
 			}
 		}
+	
+		function readList(){
+			produtosList = JSON.parse(localStorage.getItem("produtos"));
+		}
 		
 		function saveList(){
 			//converte os dados em string e salva no local storage 
@@ -37,6 +41,7 @@
 
 		function showList(){
 			//mostra a lista de produtos
+			readList();
 			var total = produtosList.length;
 			var totvalor = 0;
 			if(total > 0){
@@ -65,6 +70,7 @@
 
 		function clearList(){
 			//varre a lista a procura de tarefas realizadas//
+			readList()
 			for(var i = 0; i < produtosList.length; i++){
 				if(produtosList[i].excluir === 'true'){
 					produtosList[i].quantidade = 0
