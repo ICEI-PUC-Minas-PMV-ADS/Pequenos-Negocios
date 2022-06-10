@@ -70,12 +70,17 @@
 		function clearList(){
 			//varre a lista a procura de tarefas realizadas//
 			readList()
+			excluindo = false
 			for(var i = 0; i < produtosList.length; i++){
 				if(produtosList[i].excluir === 'true'){
+					excluindo = true
 					produtosList[i].quantidade = 0
 					produtosList[i].valor = 0
 					produtosList[i].excluir = "false"
 				}
+			}
+			if(excluindo == false){
+				alert("Para limpar produtos da lista, clique ou toque no produto desejado...");
 			}
 			saveList();
 			showList();
@@ -85,15 +90,22 @@
 			var texto = "Desejo comprar os seguintes itens na FerRosi:\n\n";
 			readList();
 			var total = produtosList.length;
+			var excluindo = false;
 			var totvalor = 0;
 			for(var i = 0; i < total; i++){
 				if(produtosList[i].quantidade > 0){
+					if(produtosList[i].excluir === 'true'){
+						excluindo = true;
+					}
 					produtosList[i].valor = produtosList[i].quantidade*produtosList[i].unit;
 					totvalor = totvalor+produtosList[i].valor;
 					texto += "Produto: "+ produtosList[i].nome + " - Quantidade: "+ produtosList[i].quantidade + " - Valor: R$ "+ produtosList[i].valor + "\n"
 				}
 			}
-			if(totvalor > 0){
+			if(excluindo == true){
+				alert("Existem produtos marcados para limpeza. Limpe antes de fechar a compra...");
+			}
+			else if(totvalor > 0){
 				var r=confirm("Tem certeza que deseja finalizar a compra?");
 				if (r==true){
 					texto += "\nTotal da compra: R$ "+totvalor;
