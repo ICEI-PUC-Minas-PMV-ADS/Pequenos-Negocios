@@ -643,13 +643,38 @@ ul{
 
     ul {
         padding: 0;
-      }
+    }
+
+    .page{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .end-contatos{
+        width: 100% !important;
+    }
+
+    .db1{
+        flex-direction: column !important;
+        justify-content: space-around;
+        width: 100% ;
+        height: auto !important;
+        align-items: center;
+        text-align: center;
+    }
+
+        .form{
+            width: 100% !important;
+    }
+
+        .mapa-area{
+            width: 100% !important;
+    }
+
+    }
 
 
 
-
-
-}
 
 
 /*<--------------------------------------------------------- PRODUTOS --------------------------------------------->*/
@@ -751,24 +776,73 @@ margin: 50px;
     border-radius: 5px;
     color: #fff;
 }
-.form-task button:hover{
+.coment-box button:hover{
     background-color: #333;
 }
 /*<--------------------------------------------------------- CONTATO --------------------------------------------->*/
+.main-contato{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 .page {
     width: 100%;
     display:flex;
-    font-size: 16px;
+    font-size: 14px;
     padding-left: 1%;
     background-color: rgb(235, 202, 114);
 }
 
 .end-contatos{
-width: 50%;
+    width: 50%;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.db1{
+    display:flex;
+    flex-direction: row;
+    width: 100%;
+    height: 18vh;
+    align-items: center;
+}
+
+.area-icon-cnt{
+    width: 15%;
+}
+
+.area-icon-cnt img{
+    width: 60px;
+}
+
+.area-titulo-cnt{
+    width: 25%;
+    font-size: 25px;
+}
+
+.area-titulo-cnt h2{
+    font-size: 25px;
+}
+
+.area-texto-cnt{
+    width: 60%;
+    text-align: center;
+}
+
+.area-texto-cnt p{
+    font-size: 16px;
+    font-family:sans-serif;
+    margin:0;
 }
 
 .form{
     width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 3%;
 }
 
 .campo {
@@ -776,9 +850,51 @@ width: 50%;
     padding: 2px;
 }
 
-.mapa{
+.campo input {
+    padding: 3px;
+    width: 35vh;
+    border-radius: 1vh;
+    border-color: rgb(0, 0, 0);
+}
+
+.campo textarea {
+    padding: 3px;
+    width: 35vh!important;
+    border-radius: 1vh;
+    border-color: rgb(0, 0, 0);
+}
+
+.submit{
+    background-color: #fff;
+    border-radius: 1vh;
+    border-color:#fff;
+    float: right;
+}
+
+.submit:hover{
+    background:rgb(235, 202, 114);
+    border-color: #fff;
+}
+
+.mapa-area{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    background-color:rgb(235, 202, 114);
+    width: 50%;
+    margin-top: 10vh;
+    border-radius: 5vh;
+    padding: 5vh;
+}
+
+.titulo-mapa{
     text-align: center;
 }
+
+.mapa {
+    margin-top: 3vh;
+}
+
 
 /*<--------------------------------------------------------- CURIOSIDADES --------------------------------------------->*/
 #sectioncuriosidade h5{
@@ -792,7 +908,7 @@ width: 50%;
 	border-top: 5px solid #c7a46c;
     width: 100%;
     padding: 5vh;
-    float: left;
+    display: flex;
     flex-direction: row;
     background-color: #f5bb4a;
     width: 100%;
@@ -804,7 +920,7 @@ width: 50%;
 	border-top: 5px solid #c7a46c;
     width: 100%;
     padding: 5vh;
-    float: left;
+    display: flex;
     flex-direction: row;
     background-color: #fff;
     width: 100%;
@@ -825,19 +941,6 @@ width: 50%;
 .textcuriosidade {
 	width: 80%;
 	float: left;
-    margin-bottom: 1em;
-}
-span.curtir {
-    margin-right: 1.5em;
-    color: #000000;
-}
-.curtir img {
-    width: 1.7em;
-    margin-right: 0.5em;
-}
-.curtir button{
-    border: 0;
-    background: none;
 }
 /*<------------------------------------------------ Cesta de produtos ------------------------------------------>*/
 #produtos-output ul {
