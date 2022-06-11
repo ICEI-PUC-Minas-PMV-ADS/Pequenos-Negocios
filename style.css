@@ -913,12 +913,12 @@ span.curtir {
     right: -100%;
     height: 100%;
     width: 25%;
-    z-index: -1;
     border-radius: 20px 0px 0px 20px;
+    z-index: 0;
 }
 
-#checkbox-cesta:checked + .cesta-produtos-area{
-    right: 0;
+#checkbox-cesta:checked ~ .cesta-produtos-area{
+    right: 0;   
 }
 
 .cesta-produtos-area h2{
