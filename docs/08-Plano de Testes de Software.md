@@ -83,3 +83,24 @@ RF-03 - O site deve conter sessão de “Curiosidades” que apresente conteúdo
 
 - O botão abaixo das curiosidades deverá possibilitar que usuário curta a postagem
 
+
+## Caso de Teste - CT-08 - Envio do pedido de compras pro WhatsApp
+
+**Requisitos Associados**
+
+RF-16 - O site deve conter um carrinho onde os produtos selecionados na página produtos aparecerão
+
+**Objetivo do Teste**
+
+- Verificar se os produtos que estão na página carrinho foram enviados para o WhatsApp 
+
+**Passos**
+
+1) Acessar o navegador
+2) Clicar no ícone do carrinho
+3) Clicar no botão "Finalizar compra"
+
+**Critérios de Êxito**
+
+A página deverá perguntar se o operador que mesmo finalizar a compra e, respondendo "ok", os produtos que estavam na página carrinho devem ir, como mensagem, para o WhatsApp.
+Se for clicado um produto para ser excluído e não confirmar a limpeza, a pagina não fará a finalização da compra e informará que existem produtos marcados para limpeza.
