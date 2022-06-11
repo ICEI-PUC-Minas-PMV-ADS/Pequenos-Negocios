@@ -40,7 +40,7 @@
 			var item = {};
 			item.id = 1;
 			item.img = "imagens/Produto2.png";
-			item.nome = "Biscoito Amanteigado Ervas Finas 50g";
+			item.nome = "Biscoito Amanteigado<br>Ervas Finas 50g";
 			item.quantidade = 0;
 			item.unit = 7;
 			item.valor = 0;

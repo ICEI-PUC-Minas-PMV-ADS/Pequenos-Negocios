@@ -857,18 +857,19 @@ span.curtir {
 }
 /*<------------------------------------------------ Cesta de produtos ------------------------------------------>*/
 #produtos-output ul {
-    margin: 1em;
+    padding: 0;
 }
 #produtos-output li {
 	cursor: pointer;
-    border-bottom: solid 1px #ccc;
-    margin: 1em;
+    text-decoration: none;
+    
+    
 }
 
 #produtos-output li img {
-    height: 7%; 
-    width:7%;
-    padding: 0.5em; 
+    
+    width:15%;
+    
 }
 
 #produtos-output li[data-excluir="true"] {
@@ -876,11 +877,12 @@ span.curtir {
 }
 
 #produtos-output h5 {
-    margin-left: 3em;    
+      font-size: 1rem;
+      
 }
 
 #sectioncesta button.left {
-    margin-left: 3em;
+    
 }
 
 .icone-cesta-produtos{
@@ -912,9 +914,13 @@ span.curtir {
     bottom: 0;
     right: -100%;
     height: 100%;
-    width: 25%;
+    width: 30%;
     border-radius: 20px 0px 0px 20px;
     z-index: 0;
+    display: flex;
+    flex-direction: column;
+    overflow-y: scroll;
+    padding: 20px;
 }
 
 #checkbox-cesta:checked ~ .cesta-produtos-area{
@@ -923,7 +929,33 @@ span.curtir {
 
 .cesta-produtos-area h2{
     margin-top: 15px;
-    margin-left: 15px;
+    
     font-size: 25px;
     color: #efefef;
+}
+
+.img-pdt{
+    width: 70px;
+    margin-right: 20px;
+}
+
+.pdt-cesta-area{
+
+    display: flex;
+    width: 100%;
+    border-bottom: 2px solid #efefef;
+    margin-top: 20px;
+    padding-bottom: 20px;
+    
+}
+
+.btn-cesta{
+    display: block;
+    margin-bottom: 10px;
+}
+
+.botoes-cesta{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
