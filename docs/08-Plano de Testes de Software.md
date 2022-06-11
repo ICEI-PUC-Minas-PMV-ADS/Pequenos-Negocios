@@ -61,3 +61,25 @@ RF-17 - O site deverá conter um botão que possibilite o usuário escolher um p
 - Ao clicar em comprar, uma mensagem de êxito deverá ser apresentada e o carrinho deverá conter uma sacola de produtos;
 - Ao digitar somente o nome ou somente o comentário deverá ser exibida uma mensagem de erro.
 
+
+## Caso de Teste - CT-06 - Página Curiosidades
+
+**Requisitos Associados**
+
+RF-03 - O site deve conter sessão de “Curiosidades” que apresente conteúdo variado relacionado ao negócio. Ex: Receitas, posts, boas práticas e afins
+
+**Objetivo do Teste**
+
+- Verificar se as curiosidades estão publicadas
+- Verificar se os botões de curtir estão funcionando
+
+**Passos**
+
+1) Acessar o navegador
+2) Rolar até a parte de curiosides e verificar se as postagens estão aparecendo
+3) Clicar nos botões de curtir abaixo de cada curiosidade
+
+**Critérios de Êxito**
+
+- O botão abaixo das curiosidades deverá possibilitar que usuário curta a postagem
+
