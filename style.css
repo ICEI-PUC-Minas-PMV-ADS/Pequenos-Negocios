@@ -646,8 +646,33 @@ ul{
         padding: 0;
       }
 
+/*<--------------------------------------------------------- Responsividade Contato --------------------------------------------->*/
 
+.page{
+    flex-direction: column;
+    align-items: center;
+}
 
+.end-contatos{
+    width: 100% !important;
+}
+
+.db1{
+    flex-direction: column !important;
+    justify-content: space-around;
+    width: 100% ;
+    height: auto !important;
+    align-items: center;
+    text-align: center;
+}
+
+    .form{
+        width: 100% !important;
+}
+
+    .mapa-area{
+        width: 100% !important;
+}
 
 
 }
@@ -771,20 +796,69 @@ margin: 50px;
     background-color: #333;
 }
 /*<--------------------------------------------------------- CONTATO --------------------------------------------->*/
+.main-contato{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 .page {
     width: 100%;
     display:flex;
-    font-size: 16px;
+    font-size: 14px;
     padding-left: 1%;
     background-color: rgb(235, 202, 114);
 }
 
 .end-contatos{
-width: 50%;
+    width: 50%;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.db1{
+    display:flex;
+    flex-direction: row;
+    width: 100%;
+    height: 18vh;
+    align-items: center;
+}
+
+.area-icon-cnt{
+    width: 15%;
+}
+
+.area-icon-cnt img{
+    width: 60px;
+}
+
+.area-titulo-cnt{
+    width: 25%;
+    font-size: 25px;
+}
+
+.area-titulo-cnt h2{
+    font-size: 25px;
+}
+
+.area-texto-cnt{
+    width: 60%;
+    text-align: center;
+}
+
+.area-texto-cnt p{
+    font-size: 16px;
+    font-family:sans-serif;
+    margin:0;
 }
 
 .form{
     width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 3%;
 }
 
 .campo {
@@ -792,8 +866,49 @@ width: 50%;
     padding: 2px;
 }
 
-.mapa{
+.campo input {
+    padding: 3px;
+    width: 35vh;
+    border-radius: 1vh;
+    border-color: rgb(0, 0, 0);
+}
+
+.campo textarea {
+    padding: 3px;
+    width: 35vh!important;
+    border-radius: 1vh;
+    border-color: rgb(0, 0, 0);
+}
+
+.submit{
+    background-color: #fff;
+    border-radius: 1vh;
+    border-color:#fff;
+    float: right;
+}
+
+.submit:hover{
+    background:rgb(235, 202, 114);
+    border-color: #fff;
+}
+
+.mapa-area{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    background-color:rgb(235, 202, 114);
+    width: 50%;
+    margin-top: 10vh;
+    border-radius: 5vh;
+    padding: 5vh;
+}
+
+.titulo-mapa{
     text-align: center;
+}
+
+.mapa {
+    margin-top: 3vh;
 }
 
 /*<--------------------------------------------------------- CURIOSIDADES --------------------------------------------->*/
@@ -857,18 +972,19 @@ span.curtir {
 }
 /*<------------------------------------------------ Cesta de produtos ------------------------------------------>*/
 #produtos-output ul {
-    margin: 1em;
+    padding: 0;
 }
 #produtos-output li {
 	cursor: pointer;
-    border-bottom: solid 1px #ccc;
-    margin: 1em;
+    text-decoration: none;
+    
+    
 }
 
 #produtos-output li img {
-    height: 7%; 
-    width:7%;
-    padding: 0.5em; 
+    
+    width:15%;
+    
 }
 
 #produtos-output li[data-excluir="true"] {
@@ -876,11 +992,12 @@ span.curtir {
 }
 
 #produtos-output h5 {
-    margin-left: 3em;    
+      font-size: 1rem;
+      
 }
 
 #sectioncesta button.left {
-    margin-left: 3em;
+    
 }
 
 .icone-cesta-produtos{
@@ -912,9 +1029,13 @@ span.curtir {
     bottom: 0;
     right: -100%;
     height: 100%;
-    width: 25%;
+    width: 30%;
     border-radius: 20px 0px 0px 20px;
     z-index: 0;
+    display: flex;
+    flex-direction: column;
+    overflow-y: scroll;
+    padding: 20px;
 }
 
 #checkbox-cesta:checked ~ .cesta-produtos-area{
@@ -923,7 +1044,33 @@ span.curtir {
 
 .cesta-produtos-area h2{
     margin-top: 15px;
-    margin-left: 15px;
+    
     font-size: 25px;
     color: #efefef;
+}
+
+.img-pdt{
+    width: 70px;
+    margin-right: 20px;
+}
+
+.pdt-cesta-area{
+
+    display: flex;
+    width: 100%;
+    border-bottom: 2px solid #efefef;
+    margin-top: 20px;
+    padding-bottom: 20px;
+    
+}
+
+.btn-cesta{
+    display: block;
+    margin-bottom: 10px;
+}
+
+.botoes-cesta{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
