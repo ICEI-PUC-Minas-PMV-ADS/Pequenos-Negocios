@@ -48,13 +48,14 @@
 					if(cestaList[ind].quantidade > 0){ 
 						cestaList[ind].valor = cestaList[ind].quantidade*cestaList[ind].unit;
 						totvalorItem = totvalorItem+cestaList[ind].valor;
-						htmlTemp += "<h5><li data-id='"+cestaList[ind].id+"' data-excluir='" + cestaList[ind].excluir + "'><img src="+cestaList[ind].img+">" + cestaList[ind].nome + " - Quantidade: "+ cestaList[ind].quantidade + " - Valor: R$ "+ cestaList[ind].valor + "</li></h5>"
+						htmlTemp += "<div class='pdt-cesta-area' >" + "<img class='img-pdt' src=" + cestaList[ind].img + ">" + "<h5><li data-id='"+cestaList[ind].id+"' data-excluir='" + cestaList[ind].excluir + "'> " + cestaList[ind].nome + "<br>Quantidade: "+ cestaList[ind].quantidade + "<br>Valor: R$ "+ cestaList[ind].valor + ",00" + "</li></h5>" +"</div>"
+
 					}
 				}
 				if(totvalorItem > 0){
-					htmlTemp += "<h2> Total da compra: R$ "+totvalorItem+"</h2>";
-					htmlTemp += "</ul><button type= 'submit' class='btn btn-warning left' onclick= 'clearCesta()'>Limpar produtos Marcados</button> ";
-					htmlTemp += "<button type= 'submit' class='btn btn-warning' onclick= 'comprarCesta()'>Finalizar compra</button>";
+					htmlTemp += "<h2> Total da compra: R$ "+ totvalorItem + ",00" + "</h2>";
+					htmlTemp += "</ul><div class='botoes-cesta'><button type= 'submit' class='btn btn-cesta btn-warning left' onclick= 'clearCesta()'>Remover produtos selecionados</button>";
+					htmlTemp += "<button type= 'submit' class='btn btn-warning' onclick= 'comprarCesta()'>Finalizar compra</button></div>";
 					cestaOutput.innerHTML = htmlTemp;
 				}
 				else{
@@ -108,7 +109,7 @@
 			else if(totvalorItem > 0){
 				var r=confirm("Tem certeza que deseja finalizar a compra?");
 				if (r==true){
-					texto += "\nTotal da compra: R$ "+totvalorItem;
+					texto += "\nTotal da compra: R$ "+ totvalorItem + ",00";
 					texto = window.encodeURIComponent(texto);
 					window.open("https://api.whatsapp.com/send?phone=" + celular + "&text=" + texto, "_blank");
 					for(var ind = 0; ind < cestaList.length; ind++){
