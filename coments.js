@@ -5,8 +5,8 @@ var todoList;
 		window.addEventListener("load",function(){
 			//guarda em uma variável o elemento tasks-output
 			todoOutput = document.getElementById("coment-box")
-			if(localStorage.getItem("tasks")){
-				todoList = JSON.parse(localStorage.getItem("tasks"));
+			if(localStorage.getItem("comentarios")){
+				todoList = JSON.parse(localStorage.getItem("comentarios"));
 				showList()
 			}else{
 				todoList = [];
@@ -25,7 +25,7 @@ var todoList;
 			if(e.target.localName == "li"){
 				e.target.dataset.done = (e.target.dataset.done === 'true')? false : true;
 				todoList[e.target.dataset.id].done = e.target.dataset.done;
-				saveList();
+				saveList2();
 			}else if(e.target.localName == "button"){
 				clearList()
 			}
@@ -44,15 +44,15 @@ var todoList;
 			
 			//adicionando a task na lista
 			todoList.push(task);
-			saveList();
+			saveList2();
 			showList();
 			// utiliza o preventDefault para evitar do form realizar o reload da página
 			e.preventDefault();
 		}
 		
-		function saveList(){
+		function saveList2(){
 			//converte os dados em string e salva no local storage 
-			localStorage.setItem("tasks",JSON.stringify(todoList));
+			localStorage.setItem("comentarios",JSON.stringify(todoList));
 		}
 		
 		function clearList(){
@@ -66,7 +66,7 @@ var todoList;
 				}
 			}
 			showList();
-			saveList();
+			saveList2();
 		}
 		
 		function showList(){
@@ -75,7 +75,7 @@ var todoList;
 			if(total > 0){
 				var htmlTemp = "<ul>"; 
 				for(var i = 0; i < total; i++){
-					htmlTemp += "<li data-id='"+todoList[i].id+"' data-done='" + todoList[i].done + "'>"+ todoList[i].descricao + " - "+ formatDate(todoList[i].date)+"</li>"
+					htmlTemp += "<h5><li data-id='"+todoList[i].id+"' data-done='" + todoList[i].done + "'>" + todoList[i].nome + " - " + todoList[i].descricao + " - "+ formatDate(todoList[i].date)+"</li><h5>"
 				}
 				htmlTemp += "</ul><button>Limpar tarefas realizadas</button>";
 				todoOutput.innerHTML = htmlTemp;

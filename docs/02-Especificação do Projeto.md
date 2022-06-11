@@ -40,25 +40,25 @@ O escopo funciona do projeto é definido por meio dos requisitos funcionais que 
 
 |ID     | Descrição do Requisito  |Prioridade |
 |-------|-------------------------|----|
-|RNF-001| O sistema deve ser responsivo para rodar em um dispositivos móvel | MÉDIA | 
-|RNF-002| O site deve conter uma sessão “Produtos” que contenha informações, fotos e demais detalhes sobre os produtos/serviços | ALTA | 
-|RNF-003| O site deve conter sessão de “Curiosidades” que apresente conteúdo variado relacionado ao negócio. Ex: Receitas, posts, boas práticas e afins | BAIXA |
-|RNF-004| O Site deve conter uma página de contato | ALTA |
-|RNF-005| O site deverá permitir avaliar os produtos e ou serviços através de comentários | BAIXA |
-|RNF-006| O site deve conter uma sessão de comentários/avaliações de clientes | ALTA |
-|RNF-007| O site deve conter o campo de busca | ALTA |
-|RNF-008| O site deve apresentar, para cada produto, uma imagem correspondente | ALTA |
-|RNF-009| O site deve permitir visualizar as informações de contatos do mantenedor do site | MÉDIA |
-|RNF-010| O site deve apresentar botão estático de whatsapp em todas as páginas | ALTA |
+|RF-01| O sistema deve ser responsivo para rodar em um dispositivos móvel | MÉDIA | 
+|RF-02| O site deve conter uma sessão “Produtos” que contenha informações, fotos e demais detalhes sobre os produtos/serviços | ALTA | 
+|RF-03| O site deve conter sessão de “Curiosidades” que apresente conteúdo variado relacionado ao negócio. Ex: Receitas, posts, boas práticas e afins | BAIXA |
+|RF-04| O Site deve conter uma página de contato | ALTA |
+|RF-05| O site deverá permitir avaliar os produtos e ou serviços através de comentários | BAIXA |
+|RF-06| O site deve conter uma sessão de comentários/avaliações de clientes | ALTA |
+|RF-07| O site deve conter o campo de busca | ALTA |
+|RF-08| O site deve apresentar, para cada produto, uma imagem correspondente | ALTA |
+|RF-09| O site deve permitir visualizar as informações de contatos do mantenedor do site | MÉDIA |
+|RF-10| O site deve apresentar botão estático de whatsapp em todas as páginas | ALTA |
 
 ### Requisitos não Funcionais
 
 |ID     | Descrição do Requisito  |Prioridade |
 |-------|-------------------------|----|
-|RNF-001| O site deve ser publicado em um ambiente acessível publicamente na Internet (Repl.it, GitHub Pages, Heroku) | ALTA | 
-|RNF-002| O site deverá ser responsivo permitindo a visualização em um celular de forma adequada | ALTA | 
-|RNF-003| O site deve ter bom nível de contraste entre os elementos da tela em conformidade | MÉDIA |
-|RNF-004| O site deve ser compatível com os principais navegadores do mercado (Google Chrome, Firefox, Microsoft Edge) | ALTA |
+|RNF-01| O site deve ser publicado em um ambiente acessível publicamente na Internet (Repl.it, GitHub Pages, Heroku) | ALTA | 
+|RNF-02| O site deverá ser responsivo permitindo a visualização em um celular de forma adequada | ALTA | 
+|RNF-03| O site deve ter bom nível de contraste entre os elementos da tela em conformidade | MÉDIA |
+|RNF-04| O site deve ser compatível com os principais navegadores do mercado (Google Chrome, Firefox, Microsoft Edge) | ALTA |
 
 ## Restrições
 
