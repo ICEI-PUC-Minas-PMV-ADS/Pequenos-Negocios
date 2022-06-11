@@ -138,54 +138,63 @@
 			readList();
 			produtosList[0].quantidade++;
 			saveList();
+		    showCesta();
 		}
 
 		function clickButton2(){
 			readList();
 			produtosList[1].quantidade++;
 			saveList();
+			showCesta();
 		}
 
 		function clickButton3(){
 			readList();
 			produtosList[2].quantidade++;
 			saveList();
+			showCesta();
 		}
 
 		function clickButton4(){
 			readList();
 			produtosList[3].quantidade++;
 			saveList();
+			showCesta();
 		}
 
 		function clickButton5(){
 			readList();
 			produtosList[4].quantidade++;
 			saveList();
+			showCesta();
 		}
 
 		function clickButton6(){
 			readList();
 			produtosList[5].quantidade++;
 			saveList();
+			showCesta();
 		}
 
 		function clickButton7(){
 			readList();
 			produtosList[6].quantidade++;
 			saveList();
+			showCesta();
 		}
 
 		function clickButton8(){
 			readList();
 			produtosList[7].quantidade++;
 			saveList();
+			showCesta();
 		}
 
 		function clickButton9(){
 			readList();
 			produtosList[8].quantidade++;
 			saveList();
+			showCesta();
 		}
 
 		function saveList(){
