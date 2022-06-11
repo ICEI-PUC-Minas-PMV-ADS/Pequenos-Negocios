@@ -34,11 +34,11 @@ RF-13 - O site deve permitir visualizar as últimas postagens realizadas no Inst
 
 **Requisitos Associados**
 
-RF-02 - O site deve conter uma sessão “Produtos” que contenha informações, fotos e demais detalhes sobre os produtos/serviços
-RF-05 - O site deverá permitir avaliar os produtos e ou serviços através de comentários
-RF-06 - O site deve conter uma sessão de comentários/avaliações de clientes
-RF-08 - O site deve apresentar, para cada produto, uma imagem correspondente
-RF-17 - O site deverá conter um botão que possibilite o usuário escolher um produto que alimentará o carrinho de compras
+RF-02 - O site deve conter uma sessão “Produtos” que contenha informações, fotos e demais detalhes sobre os produtos/serviços;
+RF-05 - O site deverá permitir avaliar os produtos e ou serviços através de comentários;
+RF-06 - O site deve conter uma sessão de comentários/avaliações de clientes;
+RF-08 - O site deve apresentar, para cada produto, uma imagem correspondente;
+RF-17 - O site deverá conter um botão que possibilite o usuário escolher um produto que alimentará o carrinho de compras.
 
 **Objetivo do Teste**
 
