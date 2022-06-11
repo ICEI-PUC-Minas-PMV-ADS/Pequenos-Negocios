@@ -719,6 +719,11 @@ ul{
 font-size: 20px;
 margin: 50px;
 }
+
+#coment-box li[data-done="true"] {
+	text-decoration: line-through;
+}
+
 .namecoment{
     width: auto;
     height: 40px;
