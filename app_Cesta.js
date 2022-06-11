@@ -1,122 +1,122 @@
-/* Carregar Produtos */
-		var produtosList;
-		var produtosOutput;
+/* Carregar Cesta */
+		var cestaList;
+		var cestaOutput;
 		
 		window.addEventListener("load",function(){
 			//guarda em uma variável o elemento produtos-output
-			produtosOutput = document.getElementById("produtos-output")
+			cestaOutput = document.getElementById("produtos-output")
 			if(localStorage.getItem("produtos")){
-				readList()
-				showList()
+				readCesta()
+				showCesta()
 			}else{
-				produtosList = [];
+				cestaList = [];
 			}
 			
-			if(produtosList.length == 0){
-				produtosOutput.innerHTML = "<h5> Seu carrinho de compras está vazio :( </h5>"
+			if(cestaList.length == 0){
+				cestaOutput.innerHTML = "<h5> Seu carrinho de compras está vazio :( </h5>"
 			}
 			//adiciona o listener para o evento submit, utilizei form para usar o required do input HTML
-			produtosOutput.addEventListener("click",clickList)
+			cestaOutput.addEventListener("click",clickCesta)
 		})
 		
-		function clickList(e){
+		function clickCesta(e){
 			//somente fazer algo quando clicar em um item li
 			if(e.target.localName == "li"){
 				e.target.dataset.excluir = (e.target.dataset.excluir === 'true')? false : true;
-				produtosList[e.target.dataset.id].excluir = e.target.dataset.excluir;
-				saveList();
+				cestaList[e.target.dataset.id].excluir = e.target.dataset.excluir;
+				saveCesta();
 			}
 		}
 	
-		function readList(){
-			produtosList = JSON.parse(localStorage.getItem("produtos"));
+		function readCesta(){
+			cestaList = JSON.parse(localStorage.getItem("produtos"));
 		}
 		
-		function saveList(){
+		function saveCesta(){
 			//converte os dados em string e salva no local storage 
-			localStorage.setItem("produtos",JSON.stringify(produtosList));
+			localStorage.setItem("produtos",JSON.stringify(cestaList));
 		}
 
-		function showList(){
+		function showCesta(){
 			//mostra a lista de produtos
-			readList();
-			var total = produtosList.length;
-			var totvalor = 0;
-			if(total > 0){
+			readCesta();
+			var totalCesta = cestaList.length;
+			var totvalorItem = 0;
+			if(totalCesta > 0){
 				var htmlTemp = "<ul>";
-				for(var i = 0; i < total; i++){
-					if(produtosList[i].quantidade > 0){ 
-						produtosList[i].valor = produtosList[i].quantidade*produtosList[i].unit;
-						totvalor = totvalor+produtosList[i].valor;
-						htmlTemp += "<h5><li data-id='"+produtosList[i].id+"' data-excluir='" + produtosList[i].excluir + "'><img src="+produtosList[i].img+">" + produtosList[i].nome + " - Quantidade: "+ produtosList[i].quantidade + " - Valor: R$ "+ produtosList[i].valor + "</li></h5>"
+				for(var ind = 0; ind < totalCesta; ind++){
+					if(cestaList[ind].quantidade > 0){ 
+						cestaList[ind].valor = cestaList[ind].quantidade*cestaList[ind].unit;
+						totvalorItem = totvalorItem+cestaList[ind].valor;
+						htmlTemp += "<h5><li data-id='"+cestaList[ind].id+"' data-excluir='" + cestaList[ind].excluir + "'><img src="+cestaList[ind].img+">" + cestaList[ind].nome + " - Quantidade: "+ cestaList[ind].quantidade + " - Valor: R$ "+ cestaList[ind].valor + "</li></h5>"
 					}
 				}
-				if(totvalor > 0){
-					htmlTemp += "<h2> Total da compra: R$ "+totvalor+"</h2>";
-					htmlTemp += "</ul><button type= 'submit' class='btn btn-warning left' onclick= 'clearList()'>Limpar produtos Marcados</button> ";
-					htmlTemp += "<button type= 'submit' class='btn btn-warning' onclick= 'comprar()'>Finalizar compra</button>";
-					produtosOutput.innerHTML = htmlTemp;
+				if(totvalorItem > 0){
+					htmlTemp += "<h2> Total da compra: R$ "+totvalorItem+"</h2>";
+					htmlTemp += "</ul><button type= 'submit' class='btn btn-warning left' onclick= 'clearCesta()'>Limpar produtos Marcados</button> ";
+					htmlTemp += "<button type= 'submit' class='btn btn-warning' onclick= 'comprarCesta()'>Finalizar compra</button>";
+					cestaOutput.innerHTML = htmlTemp;
 				}
 				else{
 					htmlTemp += "</ul><h5> Seu carrinho de compras está vazio :( </h5>";
-					produtosOutput.innerHTML = htmlTemp;
+					cestaOutput.innerHTML = htmlTemp;
 				}
 			}
 			else{
-				produtosOutput.innerHTML = "<h5> Seu carrinho de compras está vazio :( </h5>";
+				cestaOutput.innerHTML = "<h5> Seu carrinho de compras está vazio :( </h5>";
 			}
 		}
 
-		function clearList(){
+		function clearCesta(){
 			//varre a lista a procura de tarefas realizadas//
-			readList()
+			readCesta()
 			excluindo = false
-			for(var i = 0; i < produtosList.length; i++){
-				if(produtosList[i].excluir === 'true'){
+			for(var ind = 0; ind < cestaList.length; ind++){
+				if(cestaList[ind].excluir === 'true'){
 					excluindo = true
-					produtosList[i].quantidade = 0
-					produtosList[i].valor = 0
-					produtosList[i].excluir = "false"
+					cestaList[ind].quantidade = 0
+					cestaList[ind].valor = 0
+					cestaList[ind].excluir = "false"
 				}
 			}
 			if(excluindo == false){
 				alert("Para limpar produtos da lista, clique ou toque no produto desejado...");
 			}
-			saveList();
-			showList();
+			saveCesta();
+			showCesta();
 		}
-		function comprar(){
+		function comprarCesta(){
 			var celular = "5521988351171";
 			var texto = "Desejo comprar os seguintes itens na FerRosi:\n\n";
-			readList();
-			var total = produtosList.length;
+			readCesta();
+			var totalItem = cestaList.length;
 			var excluindo = false;
-			var totvalor = 0;
-			for(var i = 0; i < total; i++){
-				if(produtosList[i].quantidade > 0){
-					if(produtosList[i].excluir === 'true'){
+			var totvalorItem = 0;
+			for(var ind = 0; ind < totalItem; ind++){
+				if(cestaList[ind].quantidade > 0){
+					if(cestaList[ind].excluir === 'true'){
 						excluindo = true;
 					}
-					produtosList[i].valor = produtosList[i].quantidade*produtosList[i].unit;
-					totvalor = totvalor+produtosList[i].valor;
-					texto += "Produto: "+ produtosList[i].nome + " - Quantidade: "+ produtosList[i].quantidade + " - Valor: R$ "+ produtosList[i].valor + "\n"
+					cestaList[ind].valor = cestaList[ind].quantidade*cestaList[ind].unit;
+					totvalorItem = totvalorItem+cestaList[ind].valor;
+					texto += "Produto: "+ cestaList[ind].nome + " - Quantidade: "+ cestaList[ind].quantidade + " - Valor: R$ "+ cestaList[ind].valor + "\n"
 				}
 			}
 			if(excluindo == true){
 				alert("Existem produtos marcados para limpeza. Limpe antes de fechar a compra...");
 			}
-			else if(totvalor > 0){
+			else if(totvalorItem > 0){
 				var r=confirm("Tem certeza que deseja finalizar a compra?");
 				if (r==true){
-					texto += "\nTotal da compra: R$ "+totvalor;
+					texto += "\nTotal da compra: R$ "+totvalorItem;
 					texto = window.encodeURIComponent(texto);
 					window.open("https://api.whatsapp.com/send?phone=" + celular + "&text=" + texto, "_blank");
-					for(var i = 0; i < produtosList.length; i++){
-						produtosList[i].quantidade = 0;
-						produtosList[i].excluir = "false";				
+					for(var ind = 0; ind < cestaList.length; ind++){
+						cestaList[i].quantidade = 0;
+						cestaList[i].excluir = "false";				
 					}
-					saveList();
-					showList();
+					saveCesta();
+					showCesta();
   				}
 			}
 			else {
