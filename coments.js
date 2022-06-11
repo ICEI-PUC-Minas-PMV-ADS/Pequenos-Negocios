@@ -5,8 +5,8 @@ var todoList;
 		window.addEventListener("load",function(){
 			//guarda em uma variável o elemento tasks-output
 			todoOutput = document.getElementById("coment-box")
-			if(localStorage.getItem("comentarios")){
-				todoList = JSON.parse(localStorage.getItem("comentarios"));
+			if(localStorage.getItem("tasks")){
+				todoList = JSON.parse(localStorage.getItem("tasks"));
 				showList()
 			}else{
 				todoList = [];
@@ -16,7 +16,7 @@ var todoList;
 				todoOutput.innerHTML = "Nenhum comentário"
 			}
 			//adiciona o listener para o evento submit, utilizei form para usar o required do input HTML
-			document.getElementById("form").addEventListener("submit",onSubmit);
+			document.getElementById("form-task").addEventListener("submit",onSubmit);
 			todoOutput.addEventListener("click",clickList)
         })
 		
@@ -25,7 +25,7 @@ var todoList;
 			if(e.target.localName == "li"){
 				e.target.dataset.done = (e.target.dataset.done === 'true')? false : true;
 				todoList[e.target.dataset.id].done = e.target.dataset.done;
-				saveList2();
+				saveList();
 			}else if(e.target.localName == "button"){
 				clearList()
 			}
@@ -36,7 +36,7 @@ var todoList;
 		
 			//pego o valor cadastrado no primeiro input do meu form
 			
-            task.nome = e.target[0].value;
+            task.nome = e.target[0].string;
             task.descricao = e.target [1].value;
 			task.date = new Date();
             task.id = todoList.length;
@@ -44,15 +44,15 @@ var todoList;
 			
 			//adicionando a task na lista
 			todoList.push(task);
-			saveList2();
+			saveList();
 			showList();
 			// utiliza o preventDefault para evitar do form realizar o reload da página
 			e.preventDefault();
 		}
 		
-		function saveList2(){
+		function saveList(){
 			//converte os dados em string e salva no local storage 
-			localStorage.setItem("comentarios",JSON.stringify(todoList));
+			localStorage.setItem("tasks",JSON.stringify(todoList));
 		}
 		
 		function clearList(){
@@ -66,7 +66,7 @@ var todoList;
 				}
 			}
 			showList();
-			saveList2();
+			saveList();
 		}
 		
 		function showList(){
@@ -75,7 +75,7 @@ var todoList;
 			if(total > 0){
 				var htmlTemp = "<ul>"; 
 				for(var i = 0; i < total; i++){
-					htmlTemp += "<h5><li data-id='"+todoList[i].id+"' data-done='" + todoList[i].done + "'>" + todoList[i].nome + " - " + todoList[i].descricao + " - "+ formatDate(todoList[i].date)+"</li><h5>"
+					htmlTemp += "<li data-id='"+todoList[i].id+"' data-done='" + todoList[i].done + "'>"+ todoList[i].descricao + " - "+ formatDate(todoList[i].date)+"</li>"
 				}
 				htmlTemp += "</ul><button>Limpar tarefas realizadas</button>";
 				todoOutput.innerHTML = htmlTemp;

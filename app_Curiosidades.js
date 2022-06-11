@@ -22,9 +22,13 @@
 			if(localStorage.getItem("likes")){
 				readList();
 				likesOutput1.innerHTML = likesList[0].curtir;
+				dislikesOutput1.innerHTML = likesList[0].descurtir;
 				likesOutput2.innerHTML = likesList[1].curtir;
+				dislikesOutput2.innerHTML = likesList[1].descurtir;
 				likesOutput3.innerHTML = likesList[2].curtir;
+				dislikesOutput3.innerHTML = likesList[2].descurtir;
 				likesOutput4.innerHTML = likesList[3].curtir;
+				dislikesOutput4.innerHTML = likesList[3].descurtir;
 			}else{
 				likesList = [];
 			}
@@ -73,12 +77,24 @@
 			likesList[0].curtir++;
 			likesOutput1.innerHTML = likesList[0].curtir;
 			saveList();
+
+		}function descurtir1(){
+			readList();
+			likesList[0].descurtir++;
+			dislikesOutput1.innerHTML = likesList[0].descurtir;
+			saveList();
 		}
 
 		function curtir2(){
 			readList();
 			likesList[1].curtir++;
 			likesOutput2.innerHTML = likesList[1].curtir;
+			saveList();
+
+		}function descurtir2(){
+			readList();
+			likesList[1].descurtir++;
+			dislikesOutput2.innerHTML = likesList[1].descurtir;
 			saveList();
 		}
 
@@ -87,12 +103,24 @@
 			likesList[2].curtir++;
 			likesOutput3.innerHTML = likesList[2].curtir;
 			saveList();
+
+		}function descurtir3(){
+			readList();
+			likesList[2].descurtir++;
+			dislikesOutput3.innerHTML = likesList[2].descurtir;
+			saveList();
 		}
 
 		function curtir4(){
 			readList();
 			likesList[3].curtir++;
 			likesOutput4.innerHTML = likesList[3].curtir;
+			saveList();
+
+		}function descurtir4(){
+			readList();
+			likesList[3].descurtir++;
+			dislikesOutput4.innerHTML = likesList[3].descurtir;
 			saveList();
 		}
 
