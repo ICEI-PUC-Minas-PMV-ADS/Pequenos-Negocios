@@ -24,11 +24,12 @@ A partir da compreensão do dia a dia das personas identificadas para o projeto,
 |Fernanda Alparone   | Divulgar a FerRosi                 | Para as pessoas nos conhecerem         |
 |Fernanda Alparone   | Divulgar nossos produtos           | Para servir como propaganda e que possam tomar conhecimento do que fazemos |
 |Fernanda Alparone   | Ter uma área de curiosidades       | Para termos a possibilidade de uma troca mais constante e possibilitar maior visitação ao site |
+|Fernanda Alparone   | Ter uma ambiente ligado com nosso instagram | Para facilitar nossa divulgação |
 |Rosimeri Santos     | Especificar a nossa missão         | Para existirem dúvidas sobre o que queremos |
 |Rosimeri Santos     | Divulgar nosso processo de fabricação | Para nos aproximar mais dos nossos clientes e captar novos |
 |Rosimeri Santos     | Ter um ambiente de "monte seu pedido" | Para facilitar a escolha dos produtos para os cliente encomendarem |
 |José Mario          | Ter uma opção para que eu possa avaliar os produtos que vou comprar | Acho importante que o cliente possa saber a qualidade dos produtos |
-|José Mario          | Ter a possiblidade de pesquisar um produto ou serviço com facilidade | Facilidade e praticidade |
+|José Mario          | Poder ver vídeos do explicativos  |  Para buscar informações sobre os produtos |
 |Joana Melo            | O site deve permitir receber postagens de outras plataformas sociais | Para reduzir/otimizar o tempo de uso |
 |Joana Melo            | Em qualquer página do site, ter um botão de acesso ao WhatsApp com o número para contato | Para deixar disponível a possiblidade de contado com uma resposta rápida |
 
@@ -46,10 +47,14 @@ O escopo funciona do projeto é definido por meio dos requisitos funcionais que 
 |RF-04| O Site deve conter uma página de contato | ALTA |
 |RF-05| O site deverá permitir avaliar os produtos e ou serviços através de comentários | BAIXA |
 |RF-06| O site deve conter uma sessão de comentários/avaliações de clientes | ALTA |
-|RF-07| O site deve conter o campo de busca | ALTA |
+|RF-07| O site deve permitir que o usuário assista os vídeos do youtube diretamente na página | ALTA |
 |RF-08| O site deve apresentar, para cada produto, uma imagem correspondente | ALTA |
 |RF-09| O site deve permitir visualizar as informações de contatos do mantenedor do site | MÉDIA |
 |RF-10| O site deve apresentar botão estático de whatsapp em todas as páginas | ALTA |
+|RF-11| O site deve possuir várias páginas, apresentadas na forma de menu, no cabeçalho | ALTA |
+|RF-12| O site deve possuir uma sessão para informar a missão, visão e valores da empresa | ALTA |
+|RF-13| O site deve conter ligação com o instagram da mesma empresa  | MÉDIA |
+
 
 ### Requisitos não Funcionais
 
