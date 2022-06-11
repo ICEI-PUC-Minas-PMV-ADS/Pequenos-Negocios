@@ -28,6 +28,7 @@ A partir da compreensão do dia a dia das personas identificadas para o projeto,
 |Rosimeri Santos     | Especificar a nossa missão         | Para existirem dúvidas sobre o que queremos |
 |Rosimeri Santos     | Divulgar nosso processo de fabricação | Para nos aproximar mais dos nossos clientes e captar novos |
 |Rosimeri Santos     | Ter um ambiente de "monte seu pedido" | Para facilitar a escolha dos produtos para os cliente encomendarem |
+|Rosimeri Santos     | Divulgar nossas as redes sociais  | Para divulgar nosso ambiente virtual |
 |José Mario          | Ter uma opção para que eu possa avaliar os produtos que vou comprar | Acho importante que o cliente possa saber a qualidade dos produtos |
 |José Mario          | Poder ver vídeos do explicativos  |  Para buscar informações sobre os produtos |
 |Joana Melo            | O site deve permitir receber postagens de outras plataformas sociais | Para reduzir/otimizar o tempo de uso |
@@ -54,6 +55,10 @@ O escopo funciona do projeto é definido por meio dos requisitos funcionais que 
 |RF-11| O site deve possuir várias páginas, apresentadas na forma de menu, no cabeçalho | ALTA |
 |RF-12| O site deve possuir uma sessão para informar a missão, visão e valores da empresa | ALTA |
 |RF-13| O site deve conter ligação com o instagram da mesma empresa  | MÉDIA |
+|RF-14| O footer do site deve conter links que direcionem para as redes sociais da empresa  | ALTA |
+|RF-15| A página principal deverá apresentar os principais comentários dos clientes  | BAIXA |
+|RF-16| O site deve conter um carrinho de compras onde os produtos selecionados na página produtos aparecerão  | ALTA |
+|RF-17| O site deverá conter um botão que possibilite o usuário escolher um produto que alimentará o carrinho de compras  | ALTA |
 
 
 ### Requisitos não Funcionais
