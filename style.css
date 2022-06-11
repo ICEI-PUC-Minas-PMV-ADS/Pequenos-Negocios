@@ -9,6 +9,7 @@ div, article, section, nav, header, main, footer, img, p{
     bottom: 25px; 
     right: 25px;
     z-index:1;
+    display:none;
 }
 
 .wpp-icon:hover{
@@ -197,7 +198,7 @@ ul{
 
 .pesquisa-area{
    display: flex;
-   justify-content: flex-end;
+   justify-content: flex-start;
    align-items: center;
    padding: 0;
    border-bottom: 5px solid #f5bb4a;
@@ -643,38 +644,38 @@ ul{
 
     ul {
         padding: 0;
-    }
+      }
 
-    .page{
-        flex-direction: column;
-        align-items: center;
-    }
+/*<--------------------------------------------------------- Responsividade Contato --------------------------------------------->*/
 
-    .end-contatos{
+.page{
+    flex-direction: column;
+    align-items: center;
+}
+
+.end-contatos{
+    width: 100% !important;
+}
+
+.db1{
+    flex-direction: column !important;
+    justify-content: space-around;
+    width: 100% ;
+    height: auto !important;
+    align-items: center;
+    text-align: center;
+}
+
+    .form{
         width: 100% !important;
-    }
+}
 
-    .db1{
-        flex-direction: column !important;
-        justify-content: space-around;
-        width: 100% ;
-        height: auto !important;
-        align-items: center;
-        text-align: center;
-    }
-
-        .form{
-            width: 100% !important;
-    }
-
-        .mapa-area{
-            width: 100% !important;
-    }
-
-    }
+    .mapa-area{
+        width: 100% !important;
+}
 
 
-
+}
 
 
 /*<--------------------------------------------------------- PRODUTOS --------------------------------------------->*/
@@ -744,39 +745,54 @@ ul{
 font-size: 20px;
 margin: 50px;
 }
-.coment-box input{
-    width: 100%;
+
+#coment-box li[data-done="true"] {
+	text-decoration: line-through;
+}
+
+.namecoment{
+    width: auto;
+    height: 40px;
+    padding: 10px;
+    margin-left: 10px;
+    border-radius: 5px;
+    border: 1px solid;
+    margin: -50px;
+    
+}
+.text{
+    width: 800px;
     height: 40px;
     padding: 0 10px;
-    margin-bottom:  15px;
+    margin-left: 50px;
     border-radius: 5px;
     border: 1px solid;
 }
-.coment-box input:focus{
+.text input:focus{
     border: 1px solid;
     outline: 0;
 }
-.coment-box textarea{
+.text input{
     width: 100%;
-    height: 150px;
+    height: 10px;
     padding: 10px;
     margin-bottom:  10px;
     border-radius: 5px;
     border: 1px solid;
 }
-.coment-box textarea:focus{
+.text{
     border: 1px solid;
-    outline: 0;
+    
 }
-.coment-box button{
+.coment{
     border: 0;
-    padding: 10px 30px;
+    padding: 10px 10px;
     background: #86b0b6;
-    font-size: 18px;
+    font-size: 14px;
     border-radius: 5px;
     color: #fff;
 }
-.coment-box button:hover{
+.coment:hover{
     background-color: #333;
 }
 /*<--------------------------------------------------------- CONTATO --------------------------------------------->*/
@@ -895,7 +911,6 @@ margin: 50px;
     margin-top: 3vh;
 }
 
-
 /*<--------------------------------------------------------- CURIOSIDADES --------------------------------------------->*/
 #sectioncuriosidade h5{
 	margin-bottom: 0vh;
@@ -908,7 +923,7 @@ margin: 50px;
 	border-top: 5px solid #c7a46c;
     width: 100%;
     padding: 5vh;
-    display: flex;
+    float: left;
     flex-direction: row;
     background-color: #f5bb4a;
     width: 100%;
@@ -920,7 +935,7 @@ margin: 50px;
 	border-top: 5px solid #c7a46c;
     width: 100%;
     padding: 5vh;
-    display: flex;
+    float: left;
     flex-direction: row;
     background-color: #fff;
     width: 100%;
@@ -941,21 +956,35 @@ margin: 50px;
 .textcuriosidade {
 	width: 80%;
 	float: left;
+    margin-bottom: 1em;
+}
+span.curtir {
+    margin-right: 1.5em;
+    color: #000000;
+}
+.curtir img {
+    width: 1.7em;
+    margin-right: 0.5em;
+}
+.curtir button{
+    border: 0;
+    background: none;
 }
 /*<------------------------------------------------ Cesta de produtos ------------------------------------------>*/
 #produtos-output ul {
-    margin: 1em;
+    padding: 0;
 }
 #produtos-output li {
 	cursor: pointer;
-    border-bottom: solid 1px #ccc;
-    margin: 1em;
+    text-decoration: none;
+    
+    
 }
 
 #produtos-output li img {
-    height: 7%; 
-    width:7%;
-    padding: 0.5em; 
+    
+    width:15%;
+    
 }
 
 #produtos-output li[data-excluir="true"] {
@@ -963,9 +992,85 @@ margin: 50px;
 }
 
 #produtos-output h5 {
-    margin-left: 3em;    
+      font-size: 1rem;
+      
 }
 
 #sectioncesta button.left {
-    margin-left: 3em;
+    
+}
+
+.icone-cesta-produtos{
+    position: fixed;
+    right: 0;
+    top: 0;
+    margin-right: 5vh;
+    margin-top: 10px;
+
+
+}
+
+.cesta-produtos{
+    position: absolute;
+    right: 0;
+    margin-right: 5vh;
+    margin-top: 20vh;
+}
+
+
+#checkbox-cesta{
+    display: none;
+}
+
+.cesta-produtos-area{
+
+    background-color: #897049;
+    position: fixed;
+    bottom: 0;
+    right: -100%;
+    height: 100%;
+    width: 30%;
+    border-radius: 20px 0px 0px 20px;
+    z-index: 0;
+    display: flex;
+    flex-direction: column;
+    overflow-y: scroll;
+    padding: 20px;
+}
+
+#checkbox-cesta:checked ~ .cesta-produtos-area{
+    right: 0;   
+}
+
+.cesta-produtos-area h2{
+    margin-top: 15px;
+    
+    font-size: 25px;
+    color: #efefef;
+}
+
+.img-pdt{
+    width: 70px;
+    margin-right: 20px;
+}
+
+.pdt-cesta-area{
+
+    display: flex;
+    width: 100%;
+    border-bottom: 2px solid #efefef;
+    margin-top: 20px;
+    padding-bottom: 20px;
+    
+}
+
+.btn-cesta{
+    display: block;
+    margin-bottom: 10px;
+}
+
+.botoes-cesta{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
