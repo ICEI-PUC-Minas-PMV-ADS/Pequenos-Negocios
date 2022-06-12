@@ -396,7 +396,7 @@ ul{
 }
 
 .logo-rodape{
-    width: 200px;
+    width: 150px;
 }
 
 .db-1{
@@ -405,18 +405,24 @@ ul{
 }
 
 .rodape-div h2{
-    font-size: 25px;
+    font-size: 20px;
     color: #fff;
     margin-bottom: 15px;
+    text-align: center;
 }
 
 .rodape-div h3{
-    font-size: 20px;
+    font-size: 18px;
     
 }
 
-.redes-img{
-    width: 200px;
+.redes-img {
+    text-align: center;
+    width: 100%;
+}
+
+.redes-img a img{
+    width: 70px;
 }
 
 /*<--------------------------------------------------------- SOBRE --------------------------------------------->*/
