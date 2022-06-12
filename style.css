@@ -491,197 +491,7 @@ ul{
 }
 
 
-/*<--------------------------------------------------------- Responsividade --------------------------------------------->*/
 
-@media (max-width: 414px){
-
-    .cabecalho{
-        width: 100%;
-        height: 100%;
-        
-    }
-
-    .menu-area {
-
-        display: none;
-        right: 100%;
-        padding-top: 20px;
-        width: 100%;
-        border-bottom: 0px;
-        order: 0;
-        padding-bottom: 20px;
-    }
-
-
-    .logo-area{
-        padding-top: 20px;
-        height: 100%;
-        border-bottom: 0px;
-        order: 0;
-        
-    }
-
-    .logomarca-cab{
-        position: static;
-        width: 100%;
-    }
-
-    .pesquisa-area{
-        justify-content: center;
-        padding-top: 20px;
-        padding-bottom: 20px;
-        border-bottom: 0px;
-        order: 2;
-    }
-
-    .menu-mobile-area{
-        position: fixed;
-        margin-top: 20px;
-        margin-left: 10px;
-        display: flex;
-        justify-content: flex-start;
-        z-index: 1;
-    
-      }
-
-
-    
-      #checkbox-menu{
-        position: absolute;
-        opacity: 0;
-      }
-      
-      label{
-        cursor: pointer;
-        position: relative;
-        display: block;
-        height: 22px;
-        width: 30px;
-      }
-      
-      label span{
-        position: absolute;
-        display: block;
-        height: 5px;
-        width: 100%;
-        border-radius: 30px;
-        background: #725a38;
-        transition: 0.25s ease-in-out;
-      }
-      
-      label span:nth-child(1){
-        top: 0;
-      }
-      
-      label span:nth-child(2){
-        top: 8px;
-      }
-      
-      label span:nth-child(3){
-        top: 16px;
-      }
-      
-      #checkbox-menu:checked + label span:nth-child(1){
-        transform: rotate(-45deg);
-        top: 8px;
-      }
-      
-      #checkbox-menu:checked + label span:nth-child(2){
-        opacity: 0;
-      }
-      
-      #checkbox-menu:checked + label span:nth-child(3){
-        transform: rotate(45deg);
-        top:8px;
-      }
-
-      #checkbox-menu:checked  ~ .menu-area-mobile-1 {
-        position: absolute;
-        margin-top: 4vh;
-        left: 0;
-        top: 0;
-
-
-      }
-
-    .destaque-area {
-        Display:none;
-    }
-
-
-    .video{
-        flex-direction: column;
-    }
-
-    .video iframe{
-        max-width: 100%;
-        padding-left: 10px;
-        padding-right: 10px;
-        padding-bottom: 10px;
-    }
-
-    .depoimento{
-        display: block;
-    }
-
-    .depoimento-card{
-        width: 100%;
-        margin-bottom: 20px;
-    }
-
-    .depoimentos-area{
-        padding: 1vh;
-    }
-
-    .rodape-area {
-        width: 100%;
-        display: block;
-    }
-
-    .db-1{
-        width: 100%;
-    }
-
-    .rodape-div{
-        width: 100%;
-        align-items: center;
-        text-align: center;
-    }
-
-    ul {
-        padding: 0;
-      }
-
-/*<--------------------------------------------------------- Responsividade Contato --------------------------------------------->*/
-
-.page{
-    flex-direction: column;
-    align-items: center;
-}
-
-.end-contatos{
-    width: 100% !important;
-}
-
-.db1{
-    flex-direction: column !important;
-    justify-content: space-around;
-    width: 100% ;
-    height: auto !important;
-    align-items: center;
-    text-align: center;
-}
-
-    .form{
-        width: 100% !important;
-}
-
-    .mapa-area{
-        width: 100% !important;
-}
-
-
-}
 
 
 /*<--------------------------------------------------------- PRODUTOS --------------------------------------------->*/
@@ -790,6 +600,11 @@ margin: 50px;
     border: 1px solid;
     
 }
+
+.jump{
+    margin: 50px;
+}
+
 .coment{
     border: 0;
     padding: 10px 10px;
@@ -1002,16 +817,14 @@ span.curtir {
       
 }
 
-#sectioncesta button.left {
-    
-}
-
 .icone-cesta-produtos{
     position: fixed;
     right: 0;
     top: 0;
     margin-right: 5vh;
     margin-top: 10px;
+    width: 30px;
+    height: 30px;
 
 
 }
@@ -1025,6 +838,7 @@ span.curtir {
 
 
 #checkbox-cesta{
+
     display: none;
 }
 
@@ -1080,3 +894,480 @@ span.curtir {
     flex-direction: column;
     align-items: center;
 }
+
+/*<--------------------------------------------------------- Responsividade Mobile --------------------------------------------->*/
+
+@media (max-width: 414px){
+
+    .cabecalho{
+        width: 100%;
+        height: 100%;
+        
+    }
+
+    .menu-area {
+
+        display: none;
+        right: 100%;
+        padding-top: 20px;
+        width: 100%;
+        border-bottom: 0px;
+        order: 0;
+        padding-bottom: 20px;
+    }
+
+
+    .logo-area{
+        padding-top: 20px;
+        height: 100%;
+        border-bottom: 0px;
+        order: 0;
+        
+    }
+
+    .logomarca-cab{
+        position: static;
+        width: 100%;
+    }
+
+    .pesquisa-area{
+        justify-content: center;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        border-bottom: 0px;
+        order: 2;
+    }
+
+    .menu-mobile-area{
+        position: fixed;
+        margin-top: 20px;
+        margin-left: 10px;
+        display: flex;
+        justify-content: flex-start;
+        z-index: 1;
+    
+      }
+
+
+    
+      #checkbox-menu{
+        position: absolute;
+        opacity: 0;
+      }
+      
+      label{
+        cursor: pointer;
+        position: relative;
+        display: block;
+        height: 22px;
+        width: 30px;
+      }
+      
+      label span{
+        position: absolute;
+        display: block;
+        height: 5px;
+        width: 100%;
+        border-radius: 30px;
+        background: #725a38;
+        transition: 0.25s ease-in-out;
+      }
+      
+      label span:nth-child(1){
+        top: 0;
+      }
+      
+      label span:nth-child(2){
+        top: 8px;
+      }
+      
+      label span:nth-child(3){
+        top: 16px;
+      }
+      
+      #checkbox-menu:checked + label span:nth-child(1){
+        transform: rotate(-45deg);
+        top: 8px;
+      }
+      
+      #checkbox-menu:checked + label span:nth-child(2){
+        opacity: 0;
+      }
+      
+      #checkbox-menu:checked + label span:nth-child(3){
+        transform: rotate(45deg);
+        top:8px;
+      }
+
+      #checkbox-menu:checked  ~ .menu-area-mobile-1 {
+        position: absolute;
+        margin-top: 4vh;
+        left: 0;
+        top: 0;
+
+
+      }
+
+    .destaque-area {
+        Display:none;
+    }
+
+
+    .video{
+        flex-direction: column;
+    }
+
+    .video iframe{
+        max-width: 100%;
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-bottom: 10px;
+    }
+
+    .depoimento{
+        display: block;
+    }
+
+    .depoimento-card{
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .depoimentos-area{
+        padding: 1vh;
+    }
+
+    .rodape-area {
+        width: 100%;
+        display: block;
+    }
+
+    .db-1{
+        width: 100%;
+    }
+
+    .rodape-div{
+        width: 100%;
+        align-items: center;
+        text-align: center;
+    }
+
+    ul {
+        padding: 0;
+      }
+
+/*<--------------------------------------------------------- Responsividade Contato --------------------------------------------->*/
+
+.page{
+    flex-direction: column;
+    align-items: center;
+}
+
+.end-contatos{
+    width: 100% !important;
+}
+
+.db1{
+    flex-direction: column !important;
+    justify-content: space-around;
+    width: 100% ;
+    height: auto !important;
+    align-items: center;
+    text-align: center;
+}
+
+    .form{
+        width: 100% !important;
+}
+
+    .mapa-area{
+        width: 100% !important;
+}
+
+/*<--------------------------------------------------------- Responsividade Cesta --------------------------------------------->*/
+
+.cesta-produtos-area{
+
+    background-color: #897049;
+    position: fixed;
+    bottom: 0;
+    right: -100%;
+    height: 100%;
+    width: 100%!important;
+    border-radius: 20px 0px 0px 20px;
+    z-index: 0;
+    display: flex;
+    flex-direction: column;
+    overflow-y: scroll;
+    padding: 20px;
+}
+
+#checkbox-cesta:checked ~ .cesta-produtos-area{
+    right: 0;   
+}
+
+/*<--------------------------------------------------------- Responsividade Produtos --------------------------------------------->*/
+
+.galleryproducts {
+    
+    width: 100%!important;
+    height: 100%;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 50px;
+    box-shadow: 1px 1px 4px rgb(75 49 28);
+    padding: 1%;
+    text-align: center;
+    background-color: #ff070730;
+    border-radius: 20px;
+}
+
+.form-comentarios{
+    display: flex;
+    flex-direction: column;
+}
+
+.namecoment {
+    
+    margin: 0px!important;
+}
+
+.text{
+    width: auto!important;
+    margin-left: 10px!important;
+    margin-right: 10px!important;
+    margin-bottom: 10px!important;
+}
+
+
+.divcuriosidade1{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    align-items: center;
+    padding: 0;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.imgcuriosidade {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%!important;
+    text-align: center;
+}
+
+
+
+.divcuriosidade2{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    align-items: center;
+    padding: 0;
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+}
+
+}
+
+
+/*<--------------------------------------------------------- Responsividade Tablet --------------------------------------------->*/
+
+@media (min-width: 415px) and (max-width: 820px){
+
+    .menu-area ul{
+
+        display: none;
+      
+    }   
+
+    .menu-mobile-area{
+        position: fixed;
+        margin-top: 20px;
+        margin-left: 10px;
+        display: flex;
+        justify-content: flex-start;
+        z-index: 1;
+    
+      }
+
+
+    
+      #checkbox-menu{
+        position: absolute;
+        opacity: 0;
+      }
+      
+      label{
+        cursor: pointer;
+        position: relative;
+        display: block;
+        height: 22px;
+        width: 30px;
+      }
+      
+      label span{
+        position: absolute;
+        display: block;
+        height: 5px;
+        width: 100%;
+        border-radius: 30px;
+        background: #725a38;
+        transition: 0.25s ease-in-out;
+      }
+      
+      label span:nth-child(1){
+        top: 0;
+      }
+      
+      label span:nth-child(2){
+        top: 8px;
+      }
+      
+      label span:nth-child(3){
+        top: 16px;
+      }
+      
+      #checkbox-menu:checked + label span:nth-child(1){
+        transform: rotate(-45deg);
+        top: 8px;
+      }
+      
+      #checkbox-menu:checked + label span:nth-child(2){
+        opacity: 0;
+      }
+      
+      #checkbox-menu:checked + label span:nth-child(3){
+        transform: rotate(45deg);
+        top:8px;
+      }
+
+      #checkbox-menu:checked  ~ .menu-area-mobile-1 {
+        position: absolute;
+        margin-top: 4vh;
+        left: 0;
+        top: 0;
+
+
+      }
+
+      .imagem-card-area img {
+        width: 70%;
+    }
+
+    .card-home {
+        background-color: #f5bb4a;
+        height: 280px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-direction: column;
+        font-weight: 500;
+        font-size: 20px;
+        color: #fff;
+        text-align: center;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+    .imagem-card-area-meio img{
+        width: 70%;
+
+    }
+
+    .imagem-card-area-meio{
+        margin: 0;
+    }
+
+    .card-home-meio {
+        background-color: #fff;
+        height: 280px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-direction: column;
+        font-weight: 500;
+        font-size: 19px;
+        text-align: center;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+    .videos-area {
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+
+    .video {
+        margin-top: 50px;
+       
+    }
+
+    .video iframe{
+        margin: 20px;
+
+    }
+
+    .depoimento{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .depoimento-card{
+        width: 75%;
+        margin-bottom: 20px;
+        height: 33%;
+    }
+
+    .form-comentarios{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .namecoment {
+        
+        margin: 0px!important;
+    }
+    
+    .text{
+        width: auto!important;
+        margin-left: 10px!important;
+        margin-right: 10px!important;
+        margin-bottom: 10px!important;
+    }
+
+    .cesta-produtos-area {
+      
+        width: 52%;
+        
+    }
+    .page {
+        width: 100%;
+        display: flex;
+        font-size: 14px;
+        padding-left: 1%;
+        background-color: rgb(235, 202, 114);
+        flex-direction: column;
+    }
+
+    .end-contatos {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    
+    .form {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-top: 3%;
+    }
+
+}
+
+
