@@ -1,5 +1,15 @@
 # Registro de Testes de Software
 
+## Registro de Teste - CT-01 - Geral (Template Padrão), Cabeçalho e Rodapé
+
+![img](img/img_testes/ct01_1.png)
+![img](img/img_testes/ct01_2.png)
+![img](img/img_testes/ct01_3.png)
+
+## Registro de Teste - CT-02 - Página Home
+
+![img](img/img_testes/ct01_1.png)
+
 ## Registro de Teste - CT-03 - Página Sobre
 
 ![img](img/img_testes/ct03_1.png)
