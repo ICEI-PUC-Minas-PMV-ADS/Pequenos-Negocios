@@ -21,8 +21,15 @@
 ![img](img/img_testes/ct06_1.png)
 ![img](img/img_testes/ct06_2.png)
 
-## Registro de Teste - CT-07 - Página Curiosidades
+## Registro de Teste - CT-07 - Área Cesta
 
 ![img](img/img_testes/ct07_1.png)
 ![img](img/img_testes/ct07_2.png)
 ![img](img/img_testes/ct07_3.png)
+
+## Registro de Teste - CT-08 - Área Cesta
+
+![img](img/img_testes/ct08_1.png)
+![img](img/img_testes/ct08_2.png)
+![img](img/img_testes/ct08_3.png)
+![img](img/img_testes/ct08_4.png)
