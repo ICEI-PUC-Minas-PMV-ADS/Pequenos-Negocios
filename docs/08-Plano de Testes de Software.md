@@ -61,6 +61,28 @@ RF-17 - O site deverá conter um botão que possibilite o usuário escolher um p
 - Ao clicar em comprar, uma mensagem de êxito deverá ser apresentada e o carrinho deverá conter uma sacola de produtos;
 - Ao digitar somente o nome ou somente o comentário deverá ser exibida uma mensagem de erro.
 
+## Caso de Teste - CT-05 - Página Contato
+
+**Requisitos Associados**
+
+RF-04 - O Site deve conter uma página de contato.
+
+RF-09 - O site deve permitir visualizar as informações de contatos do mantenedor do site.
+
+**Objetivo do Teste**
+
+- Verificar se os contatos requisitados estão constando na página. 
+
+**Passos**
+
+1) Acessar o navegador
+2) Visualizar a página contato
+3) Identificar as informações de contato
+
+**Critérios de Êxito**
+
+A página deverá conter as informações e meios de contatos da FerRosi e seu(s) respectivo(s) mantenedor. 
+
 
 ## Caso de Teste - CT-06 - Página Curiosidades
 
