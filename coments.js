@@ -77,10 +77,10 @@ var todoList;
 				for(var i = 0; i < total; i++){
 					htmlTemp += "<h5><li data-id='"+todoList[i].id+"' data-done='" + todoList[i].done + "'>" + todoList[i].nome + " - " + todoList[i].descricao + " - "+ formatDate(todoList[i].date)+"</li><h5>"
 				}
-				htmlTemp += "</ul><button>Limpar tarefas realizadas</button>";
+				htmlTemp += "</ul><button>Limpar comentários realizadas</button>";
 				todoOutput.innerHTML = htmlTemp;
 			}else{
-				todoOutput.innerHTML = "Nenhuma tarefa cadastrada"
+				todoOutput.innerHTML = "Nenhum comentário realizado"
 			}
 		}
 		
