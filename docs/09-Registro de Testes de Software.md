@@ -20,3 +20,9 @@
 
 ![img](img/img_testes/ct06_1.png)
 ![img](img/img_testes/ct06_2.png)
+
+## Registro de Teste - CT-07 - Página Curiosidades
+
+![img](img/img_testes/ct07_1.png)
+![img](img/img_testes/ct07_2.png)
+![img](img/img_testes/ct07_3.png)
