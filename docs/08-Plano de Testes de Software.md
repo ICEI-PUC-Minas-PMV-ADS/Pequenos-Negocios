@@ -1,8 +1,60 @@
 # Plano de Testes de Software
 
 
+## Caso de Teste - CT-01 - Geral (Template Padrão), Cabeçalho e Rodapé
+
+**Requisitos Associados**
+
+RF-01 - O sistema deve ser responsivo para rodar em dispositivos móveis
+
+RF-09 - O site deve permitir visualizar as informações de contatos do mantenedor do site
+
+RF-11 - O Header do site deve permitir navegar entre as demais páginas
+
+RF-14 - O footer do site deve conter links que direcionem para as redes sociais da empresa
+
+**Objetivo do Teste**
+
+- Verificar se o site adequa a visualização nas dimensões dos principais navegadores e celulares
+
+- Verificar se os links de menu e logomarca no cabeçalho estão direcionando para as página
+
+- Verificar se todos os links contidos no rodapé estão direcionando para as páginas corretamente
+
+**Passos**
+
+1) Acessar o navegador
+2) Clicar em todos os links do menu, vídeos do youtube, botão do whatsapp e botões de redes sociais
+3) Ao inspecionar elementos e escolher as opções dos principais celulares, o site deverá adequar-se as dimensões de tela
 
 
+**Critérios de Êxito**
+
+- Ao clicar nos links no menu (Sobre, Produtos, Contato, Curiosidades e Carrinho) os mesmos deverão direcionar para as respectivas páginas
+- Ao clicar nos links das redes sociais (Youtube, Facebook e Instagram), deverá ser aberta uma nova página / respectivo aplicativo para cada uma delas
+
+## Caso de Teste - CT-02 - Página Home
+
+**Requisitos Associados**
+
+RF-07 - A página deve permitir que o usuário assista os vídeos do youtube diretamente na página
+
+RF-15 - A página deverá apresentar no mínimo três comentários de clientes
+
+**Objetivo do Teste**
+
+- Verificar se o player do youtube funciona diretamente na página
+- Verificar os comentários dos clientes estão presentes na página
+
+**Passos**
+
+1) Acessar o navegador
+2) Clicar no player do youtube
+3) Visualizar os principais comentários dos clientes
+
+**Critérios de Êxito**
+
+- Ao clicar no player do Youtube, os vídeos deverão ser iniciados diretamente na página.
 
 
 ## Caso de Teste - CT-03 - Página Sobre
