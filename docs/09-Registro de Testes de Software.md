@@ -13,6 +13,9 @@
 ![img](img/img_testes/CT04_05.png)
 ![img](img/img_testes/CT04_06.png)
 
+## Registro de Teste - CT-05 - Página Contato
+![img](img/img_testes/CT05_1.png)
+
 ## Registro de Teste - CT-06 - Página Curiosidades
 
 ![img](img/img_testes/ct06_1.png)
