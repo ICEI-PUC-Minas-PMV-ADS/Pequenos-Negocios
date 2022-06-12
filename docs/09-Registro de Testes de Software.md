@@ -1,12 +1,19 @@
 # Registro de Testes de Software
 
-<span style="color:red">Pré-requisitos: <a href="3-Projeto de Interface.md"> Projeto de Interface</a></span>, <a href="8-Plano de Testes de Software.md"> Plano de Testes de Software</a>
+## Registro de Teste - CT-03 - Página Sobre
 
-Relatório com as evidências dos testes de software realizados no sistema pela equipe, baseado em um plano de testes pré-definido.
+![img](img/img_testes/ct03_1.png)
+![img](img/img_testes/ct03_2.png)
 
-## Avaliação
+## Registro de Teste - CT-04 - Página Produtos
+![img](img/img_testes/CT04_01.png)
+![img](img/img_testes/CT04_02.png)
+![img](img/img_testes/CT04_03.png)
+![img](img/img_testes/CT04_04.png)
+![img](img/img_testes/CT04_05.png)
+![img](img/img_testes/CT04_06.png)
 
-Discorra sobre os resultados do teste. Ressaltando pontos fortes e fracos identificados na solução. Comente como o grupo pretende atacar esses pontos nas próximas iterações. Apresente as falhas detectadas e as melhorias geradas a partir dos resultados obtidos nos testes.
+## Registro de Teste - CT-06 - Página Curiosidades
 
-> **Links Úteis**:
-> - [Ferramentas de Test para Java Script](https://geekflare.com/javascript-unit-testing/)
+![img](img/img_testes/ct06_1.png)
+![img](img/img_testes/ct06_2.png)
