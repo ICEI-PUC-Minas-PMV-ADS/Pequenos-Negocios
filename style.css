@@ -573,11 +573,11 @@ margin: 50px;
     margin-left: 10px;
     border-radius: 5px;
     border: 1px solid;
-    margin: -50px;
+
     
 }
 .text{
-    width: 800px;
+    
     height: 40px;
     padding: 0 10px;
     margin-left: 50px;
@@ -1359,7 +1359,7 @@ span.curtir {
         flex-direction: column;
         justify-content: center;
     }
-    
+
     .form {
         width: 100%;
         display: flex;
