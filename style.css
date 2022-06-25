@@ -616,6 +616,10 @@ margin: 50px;
 .coment:hover{
     background-color: #333;
 }
+
+.font7{
+    font-size: 0.8rem;
+}
 /*<--------------------------------------------------------- CONTATO --------------------------------------------->*/
 .main-contato{
     display: flex;

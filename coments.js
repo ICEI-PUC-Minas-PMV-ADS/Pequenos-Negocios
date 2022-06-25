@@ -87,6 +87,7 @@ var todoList;
 		function formatDate(date){
 			// formata a data para o formato DD/MM/YYYY
 			var time = new Date(date);
-			var saida = time.getDate() +"/"+ time.getMonth() + "/" + time.getFullYear();
+			var mes = time.getMonth() + 1;
+			var saida = time.getDate() +"/"+ mes + "/" + time.getFullYear();
 			return saida;
 		}
