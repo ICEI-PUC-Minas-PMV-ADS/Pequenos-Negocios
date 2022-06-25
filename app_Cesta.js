@@ -113,8 +113,8 @@ function comprarCesta(){
 			texto = window.encodeURIComponent(texto);
 			window.open("https://api.whatsapp.com/send?phone=" + celular + "&text=" + texto, "_blank");
 			for(var ind = 0; ind < cestaList.length; ind++){
-				cestaList[i].quantidade = 0;
-				cestaList[i].excluir = "false";				
+				cestaList[ind].quantidade = 0;
+				cestaList[ind].excluir = "false";				
 			}
 			saveCesta();
 			showCesta();
