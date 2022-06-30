@@ -77,7 +77,7 @@ var todoList;
 				for(var i = 0; i < total; i++){
 					htmlTemp += "<h5><li data-id='"+todoList[i].id+"' data-done='" + todoList[i].done + "'>" + todoList[i].nome + " - " + todoList[i].descricao + " - "+ formatDate(todoList[i].date)+"</li><h5>"
 				}
-				htmlTemp += "</ul><button>Limpar comentários realizadas</button>";
+				htmlTemp += "</ul><br><button type='button' class='btn-warning'>Limpar comentários realizados</button>";
 				todoOutput.innerHTML = htmlTemp;
 			}else{
 				todoOutput.innerHTML = "Nenhum comentário realizado"
