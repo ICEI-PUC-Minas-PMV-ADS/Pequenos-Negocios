@@ -18,10 +18,10 @@ A solução implementada conta com os seguintes módulos:
 
 ## Hospedagem
 
-O site utiliza a plataforma do GitHub como ambiente de hospedagem do site do projeto. 
+O site utiliza a plataforma do Replit como ambiente de hospedagem do site do projeto. 
 O site é mantido no ambiente da URL: 
 
-https://icei-puc-minas-pmv-ads.github.io/Pequenos-Negocios/
+https://pequenos-negocios.ricardoteixeir6.repl.co/home.html
 
 A publicação do site no GitHub é feita por meio de uma submissão do projeto (push) via git 
 para o repositório remoto que se encontra no endereço: 
