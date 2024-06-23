@@ -1,29 +1,26 @@
 message: Please cite this software using these metadata.
-title:
+title: Pequenos Negócios
 authors:
-  - family-names: 
-    given-names: 
-  - family-names: 
-    given-names: 
-  - family-names: 
-    given-names: 
-  - family-names: 
-    given-names: 
-  - family-names: 
-    given-names: 
-  - family-names: 
-    given-names: 
+  - family-names: Vinicius Pinheiro Soares 
+    given-names:  Marcellus
+  - family-names: de Souza Ferreira
+    given-names: Gabriel
+  - family-names: Patrick Teixeira da Silva 
+    given-names: Nicolas
+  - family-names: de Souza Ferreira
+    given-names: Pedro
+  - family-names: Henrique Alves dos Reis 	
+    given-names: Ramon
+  - family-names: José Teixeira da Silva Junior
+    given-names: Ricardo
   - name-suffix: Professor
     affiliation: PUC Minas
-    family-names: 
-    given-names: 
-  - name-suffix: Professor
-    affiliation: PUC Minas
-    family-names: 
-    given-names: 
+    family-names: Maria Silveira
+    given-names: Sandra
 keywords:
-  - 
-  - 
-repository-code: 
+  - Doces
+  - Loja
+  - Vendas
+repository-code: https://github.com/ICEI-PUC-Minas-PMV-ADS/Pequenos-Negocios
 version: 1.0.0
-date-released: 2023-10-31
+date-released: 2022-06-30
